@@ -1,0 +1,60 @@
+#menu_bar {
+    display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer; 
+}
+
+.menu {
+    position: absolute; 
+    top: 50px;/*El menu va a empezar 50px por debajo del titulo*/
+    left: 0;
+    width: 100%;
+    height: 100vh;/*Para que ocupe siempre el 100% de la ventana*/
+    background: rgba(51, 51, 51, 0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none; 
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+/*Cuando se haga click en el label voy a seleccionar el menu*/
+/*alt 126 para hacer esto ~*/
+#menu_bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+
+/*Si el ta,año es de 1024px para arriba tendra las siguientes caracteristicas*/
+@media (min-width: 1024px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+    .menu a {
+        border: none;
+    }
+
+    header label {
+        display: none;
+    }
+}
