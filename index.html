@@ -4,68 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilos/fontello.css">
-	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-    <title>IBPR</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Ejemplo</title>
 </head>
 <body>
-	<header>
-		<div class="contenedor">
-			<h1 >IBPR</h1>
-			<input type="checkbox" id="menu_bar">
-			<label class="icon-menu" for="menu_bar"></label>
-			<nav class="menu">
-				<a href="">Inicio</a>
-				<a href="">Ministerios</a>
-				<a href="">Blog</a>
-				<a href="">Contactos</a>
-			</nav>
-		</div>
-	</header>
-	
-	<main>
-		<section id="banner">
-			<img src="Imagenes/pez.jpg">
-			<div class="contenedor">
-				<h2>Iglesia Bautista Panambi Reta</h2>	
-				<p>Ministerio Amigos de Jesús</p>
-				<a href="#">Leer más</a>
-			</div>	
-		</section>
-
-		<!--section id="bienvenidos">
-			<h2>Nosotros.</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			<h2>Misión.</h2>
-			<p>Hacer conocer a las personas acerca de las enseñanzas, doctrinas y fundamentos que la 
-				Biblia enseña, y que lleguen al pleno conocimiento de la persona de Jesucristo obedeciendo
-			a ello con un testimonio de vida real de lo que se predica.</p>
-
-			<h2>Visión.</h2>
-			<p>Llegar a todas las personas con la palabra de Dios, así como tambien esas personas 
-				puedan tener una transformacion por medio del Espíritu Santo y testificar con ello 
-				el amor de Dios a todas las personas.
-			</p>
-		</section>	
-
-	</main>
-
-	<footer>
-		<div class="contenedor">
-			<p class="copy">IBPR &copy; 2019</p>
-			<div class="sociales">
-				<a class="icon-facebook" href="#"></a>
-				<a class="icon-twitter" href="#"></a>
-				<a class="icon-instagram" href="#"></a--> 
-				<!--a class="icon-googleplus" href="#"></a-->
-			</div>
-		</div>
-	</footer>    
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/icono_2.png" width="50" height="50"></label>
+        <h1 class="titulos">IBPR</h1>
+        <h2 class="titulos">Ministerio Amigos de Jesús</h2>
+        <nav class="menu">
+            <ul>
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Blog</a>
+                <a href="#">Contáctos</a>
+                <a href="#">Login</a>
+            </ul>
+        </nav>
+    </header>
+    <main id="c-slider">
+        <div id="slider">
+            <section class="portada_vista" id="uno">
+                <img src="img/pez.jpg" width="850" height="580">
+            </section>
+            <section class="portada_1" id="dos">
+                <img src="img/biblia.jpg" width="850" height="580">
+            </section>
+            <section class="portada_2" id="tres">
+                <img src="img/biblia_1.jpg" width="850" height="580">
+            </section>
+            <section class="portada_3" id="cuatro">
+                <img src="img/biblia_2.jpg" width="850" height="580">
+            </section>
+            <section class="portada_4" id="cinco">
+                <img src="img/cruz.jpg" width="850" height="580">
+            </section>
+        </div>
+        <div id="btn-prev">&#60;</div>
+        <div id="btn-next">&#62;</div>
+        
+    </main>
+    <script src="js/design.js"></script>
 </body>
 </html>
