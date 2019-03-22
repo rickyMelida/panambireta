@@ -1,0 +1,74 @@
+@import url("portadas.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	position: fixed; /*Lo fijamos en una posicion fija*/
+}
+
+#btn-menu {
+	display: none;
+}
+
+/*Estilo del icono del menu*/
+label img{
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.titulos {
+	color: #fff;
+	/*font-family: 'Source Serif Pro', serif;*/
+	font-family: 'Constantia';
+	 
+	text-align: center;
+}
+
+header h1{
+	font-size: 24px;
+	padding-top: 5px;
+	margin-right: 10%;
+}
+
+header h2 {
+	font-size: 21px;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+.menu {
+	width: 100%;
+	transition: all 0.5s;/*Para que cuando se extienda tenga un retraso de 0.5 segundos*/
+	margin-left: 100%;
+}
+.menu ul {
+	display: flex; /*que sea flexible*/
+	flex-direction: column;
+}
+
+.menu ul a {
+	text-decoration: none;
+	padding: 25px 10px;
+	margin-left: 5%;
+	font: bold 18px verdana;
+	color: #fff;
+}
+
+.menu ul a:hover {
+	background: rgba(0, 0, 0, 0.6);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#btn-menu:checked ~ .menu {
+	margin-left: -100%;
+
+}
