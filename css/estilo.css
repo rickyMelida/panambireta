@@ -92,18 +92,12 @@ header h2 {
 		display: none;
 	}
 
-	/*#icono-biblia {
-		display: initial;
-		float: right;
-		margin-top: 15px;
-	}*/
 
     label img {
         display: none;
     }
 
     header {
-    	/*border-bottom: solid 1px white;*/
        	background: rgb(0, 0, 0);
     	height: 12vh; 
     }
