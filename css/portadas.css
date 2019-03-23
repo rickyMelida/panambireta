@@ -1,31 +1,3 @@
-/*.portada_vista img {
-	width: 100%;
-	float: right;
-	height: 100vh;/*Agarramos toda la pantalla*/
-} 
-/*
-.portada_1 img, .portada_2 img, .portada_3 img, .portada_4 img{
-	display: none;
-}
-
-
-#slider {
-	margin: auto;
-    overflow: hidden;/*Para que el contenido que se salga no se muestre
-}
-*/
-
-
-#c-slider {
-    margin: auto;/*Margen auto para que este en el centro*/
-    width: 85%;
-    max-width: 900px;
-    position: relative;
-    overflow: hidden;/*Para que el contenido que se salga no se muestre*/
-    box-shadow: 0 0 0 10px #fff,
-                0 15px 50px;
-}
-
 #slider {
     /*display: flex;*/
     width: 100%;
@@ -71,3 +43,24 @@
 	right: 10px;
 }
 
+@media(min-width: 1024px) {
+    #slider img {
+        display: initial;
+        width: 80%;
+        height: 87vh;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .portada_vista img {
+        margin-top: 12vh;
+    }
+
+    #btn-prev{
+        transform: translateX(250%);
+    }
+
+    #btn-next {
+        transform: translateX(-250%);
+    }
+}

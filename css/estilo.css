@@ -15,6 +15,9 @@ header {
 #btn-menu {
 	display: none;
 }
+#icono-biblia {
+	display: none;
+}
 
 /*Estilo del icono del menu*/
 label img{
@@ -28,7 +31,6 @@ label img{
 	color: #fff;
 	/*font-family: 'Source Serif Pro', serif;*/
 	font-family: 'Constantia';
-	 
 	text-align: center;
 }
 
@@ -70,5 +72,62 @@ header h2 {
 
 #btn-menu:checked ~ .menu {
 	margin-left: -100%;
+
+}
+
+/*Si el tamaño es de 1024px para arriba*/
+@media(min-width: 1024px) {
+
+	h1, #icono-biblia{
+		display: initial;
+		float: right;
+		margin-top: 15px;
+	}
+
+	h1 {
+		margin-right: -25px;
+	}
+
+	h2 {
+		display: none;
+	}
+
+	/*#icono-biblia {
+		display: initial;
+		float: right;
+		margin-top: 15px;
+	}*/
+
+    label img {
+        display: none;
+    }
+
+    header {
+    	/*border-bottom: solid 1px white;*/
+       	background: rgb(0, 0, 0);
+    	height: 12vh; 
+    }
+
+    .menu {
+    	margin-left: 0;
+    }
+
+    .menu ul {
+    	display: flex; 
+		flex-direction: row;
+		float: left;
+    }
+
+    .menu ul a {
+    	margin-right: 5%;
+    	margin-left: 0;
+    	font-size: 14px;
+
+    }
+
+	.menu ul a:hover {
+		background: rgba(255, 255, 255, 0.6);
+		height: 12vh;
+	}
 
 }
