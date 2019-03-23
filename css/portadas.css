@@ -46,10 +46,9 @@
 @media(min-width: 1024px) {
     #slider img {
         display: initial;
-        width: 80%;
+        width: 200vh;
         height: 87vh;
         text-align: center;
-        margin-left: 10%;
     }
 
     .portada_vista img {
@@ -57,10 +56,10 @@
     }
 
     #btn-prev{
-        transform: translateX(250%);
+        transform: translateX(100%);
     }
 
     #btn-next {
-        transform: translateX(-250%);
+        transform: translateX(-100%);
     }
 }
