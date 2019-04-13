@@ -75,6 +75,10 @@ header h2 {
 
 }
 
+.textos {
+	position: absolute;
+}
+
 /*Si el tamaño es de 1024px para arriba*/
 @media(min-width: 1024px) {
 
