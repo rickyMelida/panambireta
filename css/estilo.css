@@ -15,7 +15,7 @@ header {
 #btn-menu {
 	display: none;
 }
-#icono-biblia {
+#icono-cruz {
 	display: none;
 }
 
@@ -78,14 +78,15 @@ header h2 {
 /*Si el tamaño es de 1024px para arriba*/
 @media(min-width: 1024px) {
 
-	h1, #icono-biblia{
+	h1, #icono-cruz{
 		display: initial;
 		float: right;
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 
 	h1 {
 		margin-right: -25px;
+		font-size: 28px;
 	}
 
 	h2 {
