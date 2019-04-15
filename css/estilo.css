@@ -15,6 +15,7 @@ header {
 #btn-menu {
 	display: none;
 }
+
 #icono-cruz {
 	display: none;
 }
@@ -43,8 +44,7 @@ header h1{
 header h2 {
 	font-size: 21px;
 	width: 80%;
-	margin-left: 10%;
-	
+	margin-left: 10%;	
 }
 
 .menu {
@@ -52,6 +52,7 @@ header h2 {
 	transition: all 0.5s;/*Para que cuando se extienda tenga un retraso de 0.5 segundos*/
 	margin-left: 100%;
 }
+
 .menu ul {
 	display: flex; /*que sea flexible*/
 	flex-direction: column;
@@ -75,9 +76,29 @@ header h2 {
 
 }
 
-.textos {
+.textos{
 	position: absolute;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 35px;
+	width: 80%;
+	text-align: center;
+	padding: 5%;
+	margin: 10%;
 }
+
+
+#texto_0 cite {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.8);
+	top: 20vh;
+	left: 15vh;
+	font-size: 26px;
+	width: 80%;
+	text-align: right;
+}
+
+
+
 
 /*Si el tamaño es de 1024px para arriba*/
 @media(min-width: 1024px) {
