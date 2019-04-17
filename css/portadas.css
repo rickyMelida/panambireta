@@ -11,8 +11,6 @@
 }
 
 
-
-
 #btn-prev, #btn-next {
     width: 40px;
     height: 40px;
@@ -41,6 +39,13 @@
 
 #btn-next {
 	right: 10px;
+}
+
+
+.portada_1, .portada_2, .portada_3, .portada_4 {
+    width: auto;
+    height: 100vh;
+    background: black;
 }
 
 @media(min-width: 1024px) {

@@ -72,7 +72,7 @@ header h2 {
 }
 
 #btn-menu:checked ~ .menu {
-	margin-left: -100%;
+	margin-left: 10%;
 
 }
 
@@ -82,22 +82,25 @@ header h2 {
 	font-size: 30px;
 	width: 80%;
 	text-align: center;
-	padding: 5%;
+	padding: 3% 5%;
 	margin: 10%;
+	word-spacing: 10px;
 }
 
 
 #texto_0 cite {
 	position: absolute;
 	color: rgba(255, 255, 255, 0.8);
-	top: 20vh;
-	left: 5vh;
+	top: 20%;/*Estaba 20vh*/
+	left: 15%;/*Estaba 5vh*/
 	font-size: 21px;
 	width: 80%;
 	text-align: right;
 }
 
-
+strong {
+	text-decoration: underline;
+}
 
 
 /*Si el tamaño es de 1024px para arriba*/

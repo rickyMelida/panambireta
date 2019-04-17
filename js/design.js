@@ -12,8 +12,8 @@ window.onload = function() {
 estas van a desaparecer de la pantalla*/
 var sale_banner = 50;
 var sale_mision = 550;
-var sale_vision = 1050;
-var sale_valores = 1550;
+var sale_vision = 1200;
+var sale_valores = 1700;
 
 
 var banner = "#texto_0";
@@ -59,3 +59,7 @@ $(window).scroll(function(){
 		$(valores).fadeOut(1000, "linear");
 	}
 });
+
+function radio() {
+	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")
+}
