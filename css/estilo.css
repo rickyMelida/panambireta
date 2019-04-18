@@ -63,8 +63,10 @@ header h2 {
 	padding: 25px 10px;
 	margin-left: 5%;
 	font: bold 18px verdana;
-	color: #fff;
+	color: #000;
+	z-index: 200;
 }
+
 
 .menu ul a:hover {
 	background: rgba(0, 0, 0, 0.6);
@@ -78,15 +80,15 @@ header h2 {
 
 #conocer {
 	position: absolute;
-	top: 35%;
-	right: 30%;
+	top: 55%;
+	right: 20%;
 	color: #fff;
 	border: 3px solid #fff;
-	width: 100px;
-	height: 30px;
+	width: 150px;
+	height: 50px;
 	text-align: center;
-	padding: 5px;
-	font: bold 14px "Cambria";
+	padding: 10px;
+	font: bold 18px "Cambria";
 }
 
 #conocer:hover {
@@ -108,14 +110,18 @@ header h2 {
 
 #texto_0 cite {
 	position: absolute;
-	color: rgba(255, 255, 255, 0.8);
-	top: 18%;/*Estaba 20vh*/
+	color: rgba(255, 255, 255, 1);
+	top: 30%;/*Estaba 20vh*/
 	left: 15%;/*Estaba 5vh*/
 	font-size: 21px;
-	width: 80%;
-	text-align: right;
+	width: 85%;
+	text-align: left;
 }
-
+/*
+#texto_0 cite i {
+	text-align: left;
+}
+*/
 strong {
 	text-decoration: underline;
 }
