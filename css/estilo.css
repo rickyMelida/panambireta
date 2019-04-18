@@ -76,6 +76,24 @@ header h2 {
 
 }
 
+#conocer {
+	position: absolute;
+	top: 35%;
+	right: 30%;
+	color: #fff;
+	border: 3px solid #fff;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	font: bold 14px "Cambria";
+}
+
+#conocer:hover {
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.2);
+}
+
 .textos{
 	position: absolute;
 	color: rgba(255, 255, 255, 0.8);
@@ -91,7 +109,7 @@ header h2 {
 #texto_0 cite {
 	position: absolute;
 	color: rgba(255, 255, 255, 0.8);
-	top: 20%;/*Estaba 20vh*/
+	top: 18%;/*Estaba 20vh*/
 	left: 15%;/*Estaba 5vh*/
 	font-size: 21px;
 	width: 80%;
