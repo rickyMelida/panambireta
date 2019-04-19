@@ -41,8 +41,8 @@
 	right: 10px;
 }
 
-
-.portada_1, .portada_2, .portada_3, .portada_4 {
+.portada
+/*.portada_1, .portada_2, .portada_3, .portada_4*/ {
     width: auto;
     height: 100vh;
     background: black;
@@ -56,7 +56,7 @@
         text-align: center;
     }
 
-    .portada_vista img {
+    .portada img {
         margin-top: 12vh;
     }
 

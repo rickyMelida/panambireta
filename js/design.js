@@ -4,9 +4,42 @@ window.onload = function() {
 		$("#texto_"+i).css('top', valor_top + 'vh');
 		valor_top = valor_top + 120;	
 	}
-
-
 }
+
+var indiceSlider = 1;
+	mostrarSlider(indiceSlider);
+
+	function sumarSlider(n) {
+  		//Ahora sldieIndex vale el valor de n
+  		mostrarSlider(indiceSlider += n);
+	}
+
+	function currentSlide(n) {
+  		showSlides(indiceSlider = n);
+	}
+
+	function mostrarSlider(n) {
+  		var i;
+  		var slider = document.getElementsByClassName("portada");
+
+  		//alert("aca entra y slider vale " + slider.length);
+  		//si n vale mas de la cantidad de elementos que tienen la clase myslides
+  		if (n > slider.length) {
+    		indiceSlider = 1;
+  		} 
+
+  		if (n < 1) {
+    		indiceSlider = slider.length;
+  		}
+  
+  		for (i = 0; i < slider.length; i++) {
+      		slider[i].style.display = "none"; 
+  		}
+   
+  		slider[indiceSlider-1].style.display = "block"; 
+  
+	}
+
 
 /*Cuando alcanza los valores relativos de las variables 
 estas van a desaparecer de la pantalla*/
@@ -59,6 +92,8 @@ $(window).scroll(function(){
 		$(valores).fadeOut(1000, "linear");
 	}
 });
+
+
 
 function radio() {
 	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")
