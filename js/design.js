@@ -7,38 +7,37 @@ window.onload = function() {
 }
 
 var indiceSlider = 1;
-	mostrarSlider(indiceSlider);
+mostrarSlider(indiceSlider);
 
-	function sumarSlider(n) {
-  		//Ahora sldieIndex vale el valor de n
-  		mostrarSlider(indiceSlider += n);
+function sumarSlider(n) {
+	//Ahora sldieIndex vale el valor de n
+	mostrarSlider(indiceSlider += n);
+}
+
+function currentSlide(n) {
+	showSlides(indiceSlider = n);
+}
+
+function mostrarSlider(n) {
+	var slider = document.getElementsByClassName("portada");
+
+	//alert("aca entra y slider vale " + slider.length);
+	//si n vale mas de la cantidad de elementos que tienen la clase myslides
+	if (n > slider.length) {
+		indiceSlider = 1;
+	} 
+
+	if (n < 1) {
+		indiceSlider = slider.length;
 	}
 
-	function currentSlide(n) {
-  		showSlides(indiceSlider = n);
+	for (var i = 0; i < slider.length; i++) {
+		slider[i].style.display = "none"; 
 	}
 
-	function mostrarSlider(n) {
-  		var i;
-  		var slider = document.getElementsByClassName("portada");
-
-  		//alert("aca entra y slider vale " + slider.length);
-  		//si n vale mas de la cantidad de elementos que tienen la clase myslides
-  		if (n > slider.length) {
-    		indiceSlider = 1;
-  		} 
-
-  		if (n < 1) {
-    		indiceSlider = slider.length;
-  		}
+	slider[indiceSlider-1].style.display = "block"; 
   
-  		for (i = 0; i < slider.length; i++) {
-      		slider[i].style.display = "none"; 
-  		}
-   
-  		slider[indiceSlider-1].style.display = "block"; 
-  
-	}
+}
 
 
 /*Cuando alcanza los valores relativos de las variables 
@@ -69,7 +68,7 @@ $(window).scroll(function(){
 		$(conocer).fadeOut(1000, "linear");
 	}
 
-	if(valor_scroll < sale_mision) {
+	if(valor_scroll < sale_mision ) {
 		$(mision).fadeIn(1000, "linear");
 
 	}else {

@@ -99,12 +99,16 @@ header h2 {
 .textos{
 	position: absolute;
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 30px;
+	font-size: 35px;
 	width: 80%;
 	text-align: center;
-	padding: 3% 5%;
-	margin: 10%;
+	padding: 0;
+	margin:0 10%;
 	word-spacing: 10px;
+}
+
+#texto_1 {
+	padding-top: 15%;
 }
 
 #presentacion {
