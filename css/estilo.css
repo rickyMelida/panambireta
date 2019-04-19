@@ -30,7 +30,6 @@ label img{
 
 .titulos {
 	color: #fff;
-	/*font-family: 'Source Serif Pro', serif;*/
 	font-family: 'Constantia';
 	text-align: center;
 }
@@ -48,6 +47,7 @@ header h2 {
 }
 
 .menu {
+	position: absolute;
 	width: 100%;
 	transition: all 0.5s;/*Para que cuando se extienda tenga un retraso de 0.5 segundos*/
 	margin-left: 100%;
@@ -59,12 +59,12 @@ header h2 {
 }
 
 .menu ul a {
+	display: block;
 	text-decoration: none;
 	padding: 25px 10px;
 	margin-left: 5%;
 	font: bold 18px verdana;
-	color: #000;
-	z-index: 200;
+	color: #fff;
 }
 
 
@@ -80,8 +80,8 @@ header h2 {
 
 #conocer {
 	position: absolute;
-	top: 55%;
-	right: 20%;
+	top: 45%;
+	right: 15%;
 	color: #fff;
 	border: 3px solid #fff;
 	width: 150px;
@@ -111,11 +111,12 @@ header h2 {
 #texto_0 cite {
 	position: absolute;
 	color: rgba(255, 255, 255, 1);
-	top: 30%;/*Estaba 20vh*/
-	left: 15%;/*Estaba 5vh*/
-	font-size: 21px;
-	width: 85%;
-	text-align: left;
+	top: 20%;/*Estaba 20vh*/
+	right: 5%;/*Estaba 5vh*/
+	font-size: 25px;
+	font-weight: bold;
+	width: 60%;
+	text-align: right;
 }
 /*
 #texto_0 cite i {

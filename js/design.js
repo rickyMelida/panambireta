@@ -20,7 +20,7 @@ var banner = "#texto_0";
 var mision = "#texto_1";
 var vision = "#texto_2";
 var valores = "#texto_3";
-
+var conocer = "#conocer";
 
 $(window).scroll(function(){
 	var valor_scroll = $(window).scrollTop();
@@ -30,10 +30,10 @@ $(window).scroll(function(){
 	//Se mostrará el banner
 	if(valor_scroll < sale_banner) {
 		$(banner).fadeIn(1000, "linear");
-
+		$(conocer).fadeIn(1000, "linear");
 	}else {
 		$(banner).fadeOut(1000, "linear");
-
+		$(conocer).fadeOut(1000, "linear");
 	}
 
 	if(valor_scroll < sale_mision) {
