@@ -131,11 +131,7 @@ header h2 {
 	width: 60%;
 	text-align: right;
 }
-/*
-#texto_0 cite i {
-	text-align: left;
-}
-*/
+
 strong {
 	text-decoration: underline;
 }
@@ -152,7 +148,7 @@ strong {
 
 	h1 {
 		margin-right: -25px;
-		font-size: 28px;
+		font-size: 31px;
 	}
 
 	h2 {
@@ -182,8 +178,7 @@ strong {
     .menu ul a {
     	margin-right: 5%;
     	margin-left: 0;
-    	font-size: 14px;
-
+    	font-size: 18px;
     }
 
 	.menu ul a:hover {
@@ -191,4 +186,20 @@ strong {
 		height: 12vh;
 	}
 
+
+	.textos {
+		padding: 20%;
+	}
+
+	#texto_0 cite {
+		font-size: 35px;
+		top: 25%;
+		right: 20%;
+		width: 100%;
+	}
+
+	#conocer {
+		top: 50%;
+		right: 20%;
+	}
 }

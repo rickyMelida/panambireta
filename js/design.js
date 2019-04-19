@@ -45,8 +45,8 @@ function mostrarSlider(n) {
 estas van a desaparecer de la pantalla*/
 var sale_banner = 50;
 var sale_mision = 650;
-var sale_vision = 1400;
-var sale_valores = 2000;
+var sale_vision = 1650;
+var sale_valores = 2200;
 
 
 var banner = "#texto_0";
@@ -75,7 +75,6 @@ $(window).scroll(function(){
 
 	}else {
 		$(mision).fadeOut(1000, "linear");
-
 	}
 
 	if(valor_scroll < sale_vision) {
@@ -92,6 +91,29 @@ $(window).scroll(function(){
 	}else {
 		$(valores).fadeOut(1000, "linear");
 	}
+
+	
+		//alert("aca entro");
+		if(sale_mision > valor_scroll) {
+			$("#presentacion").css("background", "#DC143C");	
+		}else{
+			if (sale_vision > valor_scroll) {
+				$("#presentacion").css("background", "#228b22");
+				$("#presentacion").css("transition", "all 1s");	
+			}else {
+				if(sale_valores > valor_scroll) {
+					$("#presentacion").css("background", "#4169E1");
+					$("#presentacion").css("transition", "all 1s");
+				}else {
+					if(valor_scroll > sale_valores) {
+						$("#presentacion").css("background", "#000");
+						$("#presentacion").css("transition", "all 1s");
+					}
+				}
+			}
+		}
+		
+
 });
 
 
