@@ -77,6 +77,9 @@ header h2 {
 	margin-left: 10%;
 
 }
+.textos ul li {
+	color: #fff;
+}
 
 #conocer {
 	position: absolute;
@@ -113,7 +116,7 @@ header h2 {
 
 #presentacion {
 	width: 100%;
-	height: 200em;
+	height: 150em;
 	background: #000;
 }
 

@@ -33,6 +33,7 @@ function mostrarSlider(n) {
 
 	for (var i = 0; i < slider.length; i++) {
 		slider[i].style.display = "none"; 
+		slider[i].style.transition = "all 0.5s";
 	}
 
 	slider[indiceSlider-1].style.display = "block"; 
@@ -43,9 +44,9 @@ function mostrarSlider(n) {
 /*Cuando alcanza los valores relativos de las variables 
 estas van a desaparecer de la pantalla*/
 var sale_banner = 50;
-var sale_mision = 550;
-var sale_vision = 1200;
-var sale_valores = 1700;
+var sale_mision = 650;
+var sale_vision = 1400;
+var sale_valores = 2000;
 
 
 var banner = "#texto_0";
@@ -67,6 +68,7 @@ $(window).scroll(function(){
 		$(banner).fadeOut(1000, "linear");
 		$(conocer).fadeOut(1000, "linear");
 	}
+
 
 	if(valor_scroll < sale_mision ) {
 		$(mision).fadeIn(1000, "linear");
