@@ -44,7 +44,7 @@ function mostrarSlider(n) {
 /*Cuando alcanza los valores relativos de las variables 
 estas van a desaparecer de la pantalla*/
 var sale_banner = 50;
-var sale_mision = 650;
+var sale_mision = 700;
 var sale_vision = 1650;
 var sale_valores = 2200;
 
