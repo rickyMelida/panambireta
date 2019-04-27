@@ -77,64 +77,7 @@ header h2 {
 	margin-left: 10%;
 
 }
-.textos ul li {
-	color: #fff;
-}
 
-#conocer {
-	position: absolute;
-	top: 55%;
-	right: 15%;
-	color: #fff;
-	border: 3px solid #fff;
-	width: 150px;
-	height: 50px;
-	text-align: center;
-	padding: 10px;
-	font: bold 18px "Cambria";
-}	
-
-#conocer:hover {
-	cursor: pointer;
-	background: rgba(255, 255, 255, 0.2);
-}
-
-.textos{
-	position: absolute;
-	color: rgba(255, 255, 255, 0.8);
-	font-size: 31px;
-	width: 80%;
-	text-align: center;
-	padding: 0;
-	margin:0 10%;
-	word-spacing: 5px;
-}
-
-#texto_1 {
-	padding-top: 15%;
-}
-
-#presentacion {
-	width: 100%;
-	height: 150em;
-	background: #000;
-}
-
-
-#texto_0 cite {
-	position: absolute;
-	color: rgba(255, 255, 255, 1);
-	top: 20%;/*Estaba 20vh*/
-	right: 5%;/*Estaba 5vh*/
-	font-size: 21px;
-	font-weight: bold;
-	width: 60%;
-	text-align: right;
-}
-
-strong {
-	text-decoration: underline;
-}
 
 
 /*Si el tamaño es de 1024px para arriba*/
