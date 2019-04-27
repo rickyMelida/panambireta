@@ -5,7 +5,7 @@ $("#slider").css("margin-left", "-" + 100 + "%");
 
 anterior.click(function() {
 	$("#c-slider").animate({marginLeft: "-" + 100 + "%"}, 700, function(){
-		$("#slider .portada:last").insertAfer("#slider .portada:first");
+		$("#slider .portada:first").insertAfter("#slider .portada:last");
 		$("#slider").css("margin-left", "-" + 100 + "%");
 	});
 });
