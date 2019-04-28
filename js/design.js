@@ -2,11 +2,13 @@ var siguiente = $("#btn-next");
 var anterior = $("#btn-prev");
 
 $("#slider").css("margin-left", "-" + 100 + "%");
+//$("#slider .portada:last").insertBefore("#slider .portada:first");
+
 
 anterior.click(function() {
-	$("#c-slider").animate({marginLeft: "-" + 100 + "%"}, 700, function(){
+	$("#slider").animate({marginLeft: "-" + 200 + "%"}, 700, function(){
 		$("#slider .portada:first").insertAfter("#slider .portada:last");
-		$("#slider").css("margin-left", "-" + 100 + "%");
+		$("#slider").css("margin-left","-" + 100 + "%");
 	});
 });
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ejemplo overflow</title>
+	<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	<style>
+		p{
+			width: 100px;
+			height: 100px;
+			border: solid 1px #000;
+			text-align: center;
+		}
+
+		#parrafo {
+			background: yellow;
+		}
+
+		#parrafo_2 {
+			background: red;
+		}
+		
+		div {
+			display: flex;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Titulo</h1>
+	<input type="button" value="Izquierda" class="button" id="izquierda">
+	<input type="button" value="Derecha" id="derecha" class="button">
+	<div>
+		<p id="parrafo">Primer Parrafo</p>
+		<p id="parrafo_2">Segundo Parrafo</p>
+		<p id="parrafo_3">Tercer Parrafo</p>
+	</div>
+	<script>
+		var elemento = $("#parrafo");
+		var elemento_2 = $("#parrafo_2");
+		var elemento_3 = $("#parrafo_3");
+
+		/*Va a Izquierda*/
+		$("#izquierda").click(function() {
+			$("p:first").insertAfter("p:last");
+		});
+
+		/*Va a Derecha*/
+		$("#derecha").click(function() {
+			$("p:last").insertBefore("p:first");
+		});
+	</script>
+</body>
+</html>
