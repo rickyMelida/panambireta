@@ -68,17 +68,33 @@ header h2 {
 }
 
 
-.menu ul a:hover {
+/*.menu ul a:hover {
 	background: rgba(0, 0, 0, 0.6);
 	color: rgba(255, 255, 255, 0.5);
-}
+}*/
 
 #btn-menu:checked ~ .menu {
 	margin-left: 10%;
 
 }
 
+section aside {
+	position: relative;
+	width: 50%;
+	height: 100vh;
+	border: solid 2px #000;
+	float: left;
+}
 
+#menu_serv {
+	display: none;
+}
+
+#menu_serv li{
+	margin-left: 10%;
+	list-style: none;
+	padding: 20px 0;
+}
 
 /*Si el tamaño es de 1024px para arriba*/
 @media(min-width: 1024px) {
@@ -124,25 +140,15 @@ header h2 {
     	font-size: 18px;
     }
 
-	.menu ul a:hover {
-		background: rgba(255, 255, 255, 0.6);
-		height: 12vh;
+    #menu_ser {
+    	position: absolute;
+    	top: 20%;
+    }	
+
+	#menu_serv li{
+		/*width: 500px;
+		/*margin-left: 0;*/
+		padding: 5% 0;
 	}
 
-
-	.textos {
-		padding: 20%;
-	}
-
-	#texto_0 cite {
-		font-size: 35px;
-		top: 25%;
-		right: 20%;
-		width: 100%;
-	}
-
-	#conocer {
-		top: 50%;
-		right: 20%;
-	}
 }

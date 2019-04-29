@@ -11,6 +11,13 @@ anterior.click(function() {
 	});
 });
 
+
+var ancho_vent = window.innerWidth;
+setInterval(function() {
+	ancho_vent = window.innerWidth;
+}, 500);
+
+
 /*Va a derecha*/
 siguiente.click(function() {
 	$("#slider").animate({marginLeft: 0 + "%"}, 2000, function(){
@@ -19,13 +26,31 @@ siguiente.click(function() {
 	});
 });
 
-/*Pasa automatico las imagenes*/
+/*Pasa automatico a la derecha las imagenes*/
 setInterval(function(){
 	$("#slider").animate({marginLeft: 0 + "%"}, 700, function(){
 		$("#slider .portada:last").insertBefore("#slider .portada:first");
 		$("#slider").css("margin-left", "-" + 100 + "%");
 	});
 }, 4000);
+
+/*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
+$("#serv").click(function() {
+	if(ancho_vent <= 1024) {
+		slider();	
+	}
+});
+
+
+$("#serv").hover(function() {
+	$("#serv ul").slideDown(500);
+}, function() {
+	$("#serv ul").slideUp(500);
+});
+
+function slider() {
+	$("#serv ul").slideToggle(700);
+}
 
 function radio() {
 	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")
