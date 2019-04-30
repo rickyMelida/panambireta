@@ -125,7 +125,7 @@ section aside {
     }
 
     .menu {
-    	margin-left: 0;
+    	margin-left: 0%;
     }
 
     .menu ul {
@@ -135,14 +135,15 @@ section aside {
     }
 
     .menu ul a {
-    	margin-right: 5%;
+    	/*margin-right: 5%;*/
     	margin-left: 0;
-    	font-size: 18px;
+		font-size: 16px;
+		padding-right: 8%;
     }
 
     #menu_ser {
     	position: absolute;
-    	top: 20%;
+    	top: 25%;
     }	
 
 	#menu_serv li{

@@ -26,27 +26,31 @@ siguiente.click(function() {
 	});
 });
 
-/*Pasa automatico a la derecha las imagenes*/
+/*Pasa automatico a la derecha las imagenes
 setInterval(function(){
 	$("#slider").animate({marginLeft: 0 + "%"}, 700, function(){
 		$("#slider .portada:last").insertBefore("#slider .portada:first");
 		$("#slider").css("margin-left", "-" + 100 + "%");
 	});
-}, 4000);
+}, 4000);*/
 
 /*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
-$("#serv").click(function() {
-	if(ancho_vent <= 1024) {
-		slider();	
-	}
-});
+if(ancho_vent <= 1024) {
+	$("#serv").click(function() {
+		slider();
+	});
+	
+}else {
+	$("#serv").hover(function() {
+		$("#serv ul").slideDown(500);
+	}, function() {
+		$("#serv ul").slideUp(500);
+	});	
+}
 
 
-$("#serv").hover(function() {
-	$("#serv ul").slideDown(500);
-}, function() {
-	$("#serv ul").slideUp(500);
-});
+
+
 
 function slider() {
 	$("#serv ul").slideToggle(700);
