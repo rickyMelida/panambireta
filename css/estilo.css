@@ -141,14 +141,14 @@ section aside {
 		padding-right: 8%;
     }
 
-    #menu_ser {
+    #menu_serv {
     	position: absolute;
-    	top: 25%;
+    	top: 90%;
+    	left: 15%;
+    	width: 300px;
     }	
 
 	#menu_serv li{
-		/*width: 500px;
-		/*margin-left: 0;*/
 		padding: 5% 0;
 	}
 
