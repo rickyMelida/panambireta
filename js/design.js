@@ -19,6 +19,15 @@ siguiente.click(function() {
 	});
 });
 
+
+
+$(window).scroll(function() {
+	var valor_scroll = $(window).scrollTop();
+	console.log(valor_scroll);
+	if(valor_scroll >= 350) {
+		$("header").css("background", "black");
+	}
+});
 /*Pasa automatico a la derecha las imagenes
 setInterval(function(){
 	$("#slider").animate({marginLeft: 0 + "%"}, 700, function(){
