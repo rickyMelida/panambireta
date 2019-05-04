@@ -27,8 +27,11 @@ setInterval(function(){
 	});
 }, 4000);*/
 
+
 var ancho_vent = window.innerWidth;
 
+
+/*Funcion que va testeando cada 500ms el ancho de la ventana*/
 function estado_ancho() {	
 	setInterval(function() {
 		ancho_vent = window.innerWidth;
@@ -36,7 +39,7 @@ function estado_ancho() {
 }
 
 
-
+/*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
 	if(ancho_vent >= 1024){
 		$("#serv").hover(function() {
 			slider();
@@ -49,17 +52,12 @@ function estado_ancho() {
 		estado_ancho();
 	}
 
-/*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
-
-	
-
-
-
-
+/*Funcion para desplegar el submenu*/
 function slider() {
 	$("#serv ul").slideToggle(700);
 }
 
+/*Funcion para abrir la vnetana de la radio*/
 function radio() {
 	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")
 }
