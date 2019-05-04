@@ -25,7 +25,10 @@ $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
 	console.log(valor_scroll);
 	if(valor_scroll >= 350) {
-		$("header").css("background", "black");
+		$("header").animate({background: "#fff"}, 700);
+		//$("header").css("background", "black");
+	}else {
+		$("header").css("background", "none");
 	}
 });
 /*Pasa automatico a la derecha las imagenes
