@@ -99,6 +99,7 @@ section aside {
 /*Si el tamaño es de 1024px para arriba*/
 @media(min-width: 1024px) {
 
+
 	h1, #icono-cruz{
 		display: initial;
 		float: right;
@@ -144,7 +145,7 @@ section aside {
     #menu_serv {
     	position: absolute;
     	top: 90%;
-    	left: 15%;
+    	left: 20%;
     	width: 300px;
     }	
 

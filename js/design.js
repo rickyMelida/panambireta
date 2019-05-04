@@ -27,12 +27,32 @@ setInterval(function(){
 	});
 }, 4000);*/
 
-
-
 var ancho_vent = window.innerWidth;
-setInterval(function() {
-	ancho_vent = window.innerWidth;
-}, 500);
+
+function estado_ancho() {	
+	setInterval(function() {
+		ancho_vent = window.innerWidth;
+	}, 500);
+}
+
+
+
+	if(ancho_vent >= 1024){
+		$("#serv").hover(function() {
+			slider();
+		});
+		estado_ancho();
+	}else {
+		$("#serv").click(function() {
+			slider();
+		});	
+		estado_ancho();
+	}
+	
+
+
+
+/*
 var submenu = document.getElementById("serv");
 var menu_serv = document.getElementById("menu_serv");
 
@@ -45,11 +65,10 @@ submenu.addEventListener("mouseout", function() {
 	$("#menu_serv").slideUp(300);
 });
 
+
 /*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
 
-	$("#serv").click(function() {
-		slider();
-	});
+	
 
 
 
