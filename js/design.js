@@ -48,23 +48,6 @@ function estado_ancho() {
 		});	
 		estado_ancho();
 	}
-	
-
-
-
-/*
-var submenu = document.getElementById("serv");
-var menu_serv = document.getElementById("menu_serv");
-
-
-submenu.addEventListener("mouseover", function() {
-	$("#menu_serv").slideDown(300);
-});
-
-submenu.addEventListener("mouseout", function() {
-	$("#menu_serv").slideUp(300);
-});
-
 
 /*Solamente se va a ejecutar con click cuando es tamaño movil y tablets*/
 
