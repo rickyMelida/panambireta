@@ -40,8 +40,9 @@
 #cont_editorial p i {
   border: solid 1px #fff;
   border-radius: 5%;
-  margin-left: 50%;
+  margin-left: 60%;
   padding: 10px;
+  font-size: 14px;
 }
 
 p i:hover {

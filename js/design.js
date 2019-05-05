@@ -24,11 +24,13 @@ siguiente.click(function() {
 $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
 	console.log(valor_scroll);
-	if(valor_scroll >= 350) {
-		$("header").animate({background: "#fff"}, 700);
-		//$("header").css("background", "black");
+	if(valor_scroll >= 250) {
+		$("#c-slider").animate({backgroundPositionX:"0px", backgroundPositionY:"0px"}, 700, function() {
+			$(this).css("filter", "grayscale(80%)");
+		});
+
 	}else {
-		$("header").css("background", "none");
+		//$("header").css("background", "none");
 	}
 });
 /*Pasa automatico a la derecha las imagenes
