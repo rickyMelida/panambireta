@@ -63,6 +63,18 @@ function slider() {
 	$("#serv ul").slideToggle(700);
 }
 
+
+/*redireccionamos a la editorial*/
+$("#pagina_edit").click(function() {
+	window.open('http://google.com', '_blank');
+});
+
+
+/*Redireccionamos al blog en el articulo selecionado*/
+$("#pagina_info").click(function() {
+	window.open('http://google.com', '_blank');
+});
+
 /*Funcion para abrir la vnetana de la radio*/
 function radio() {
 	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")

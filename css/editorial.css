@@ -4,7 +4,7 @@
   width: 100%;
   height: 100vh;
   margin: auto;
-  padding-top: 30%;
+  padding-top: 5%;
   /*background: #4682B4;*/
   background: #ffffe0;
   color: #000;
@@ -15,10 +15,23 @@
   border: solid 2px #000;
   border-radius: 10px;
   font-family: 'Playfair Display', serif;
-  margin: 0 5%;
-  height: auto;
+  margin: 0 15% ;
+  height: 100%;
   padding: 10% 0;
 }
+
+.cont_info {
+  background-image: url("../imagenes/salud.jpg");
+  filter: opacity(.8);
+  border: solid 2px #000;
+  border-radius: 10px;
+  font-family: 'Playfair Display', serif;
+  margin: 15%;
+  height: auto;
+  padding-top: 10% ;
+  font-weight: bold;
+}
+
 .contenido h3 {
   font-size: 28px;
   text-align: left;
@@ -40,7 +53,7 @@
   padding: 10%;
 }
 
-.cont_editorial p i {
+.cont_editorial p i, .cont_info p i {
   border: solid 1px #000;
   border-radius: 5%;
   width: 10%;
