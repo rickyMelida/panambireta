@@ -15,21 +15,20 @@
   border: solid 2px #000;
   border-radius: 10px;
   font-family: 'Playfair Display', serif;
-  margin: 0 15% ;
+  margin: 0 ;
   height: 100%;
   padding: 10% 0;
 }
 
 .cont_info{
   background-image: url("../imagenes/salud.jpg");
-  filter: opacity(.8);
+  color: #fff;
   border: solid 2px #000;
   border-radius: 10px;
   font-family: 'Playfair Display', serif;
   /*margin: 15%;*/
   height: auto;
   padding-top: 10% ;
-  font-weight: bold;
 }
 
 #redes_soc {
