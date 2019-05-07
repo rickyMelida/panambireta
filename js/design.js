@@ -25,13 +25,13 @@ $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
 	console.log(valor_scroll);
 });
-/*Pasa automatico a la derecha las imagenes
+/*Pasa automatico a la derecha las imagenes*/
 setInterval(function(){
 	$("#slider").animate({marginLeft: 0 + "%"}, 700, function(){
 		$("#slider .portada:last").insertBefore("#slider .portada:first");
 		$("#slider").css("margin-left", "-" + 100 + "%");
 	});
-}, 4000);*/
+}, 4000);
 
 
 var ancho_vent = window.innerWidth;
