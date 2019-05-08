@@ -32,7 +32,7 @@
 }
 
 #redes_soc {
-  border: solid 1px #000;
+  border-left: solid 1px #000;
   border-radius: 10px;
   overflow: scroll;
   height: 100vh;
