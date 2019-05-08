@@ -24,6 +24,10 @@ siguiente.click(function() {
 $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
 	console.log(valor_scroll);
+
+	if(valor_scroll >= 400) {
+		
+	}
 });
 /*Pasa automatico a la derecha las imagenes
 setInterval(function(){
