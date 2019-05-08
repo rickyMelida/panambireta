@@ -1,13 +1,7 @@
-@import url("reset.css");
+﻿@import url("reset.css");
+@import url("contenidos.css");
 @import url("portadas.css");
-@import url("editorial.css");
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 
 header {
 	width: 100%;
@@ -68,12 +62,6 @@ header h2 {
 	font: bold 18px verdana;
 	color: #fff;
 }
-
-
-/*.menu ul a:hover {
-	background: rgba(0, 0, 0, 0.6);
-	color: rgba(255, 255, 255, 0.5);
-}*/
 
 #btn-menu:checked ~ .menu {
 	margin-left: 10%;
