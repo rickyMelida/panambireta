@@ -5,74 +5,36 @@
 	<meta charset="utf-8">
 	<script  src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script type="text/javascript">
+	</script>
 
-		window.onload = function () {
-
-			var nov = document.getElementById("nov");
-
-			var elemsH = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-
-			for (var i=0;i<elemsH.length;i++) {
-
-				elemsH[i].addEventListener("mouseover", cambiarColor1);
-
-				elemsH[i].addEventListener("mouseout", cambiarColor2);
-			}
-
-			nov.addEventListener("mouseover", function() {
-				$("#nov").slideUp(500);
-			});
-
-			nov.addEventListener("mouseout", function() {
-				$("#nov").slideDown(500);
-			});
-
-			/*function entra() {
-				this.
-			}*/
-
-			function cambiarColor1() {
-				this.style.color = 'orange';
-			}
-
-			function cambiarColor2() {
-				this.style.color = 'brown';
-			}
-
+	<style>
+		img {
+			filter: opacity(.5);
 		}
 
-	</script>
+		p {
+			position: absolute;
+			top: 450px;
+			left: 150px;
+			color: red;
+		}
+	</style>
 </head>
-
 <body>
-	<p>
-		<a href="principal.html" title="Página principal" >Ir a la pagina principal</a>
-	</p>
-
-	<h1>Novedades</h1>
-	<p id="nov">Aquí presentamos las novedades del sitio. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-	<h3>Lanzamos el producto X-FASHION</h3>
-
-	<p>Este producto permite estirar la piel hasta dejarla como la de un bebé.</p>
-
-	<p>
-		<img src="http://i.imgur.com/tq5Bs.png" title="Imagen del producto" alt="imagen producto x-fashion" />
-	</p>
-
-	<h3>Mejoramos el producto T-MOTION</h3>
-
-	<p>Hemos lanzado una nueva versión del producto T-MOTION</p>
-
-	<p>
-		<img src="http://i.imgur.com/SpZyc.png" title="Imagen del proudcto tmotion" alt="imagen producto tmotion" />
-	</p>
-
+	<h1>Titulo</h1>
+	<div>
+		<img src="imagenes/crecimiento.jpeg" width="300" height="200">
+		<div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.3"></script>
+            <div class="fb-post" data-href="https://www.facebook.com/iglesiabautistapanambireta/photos/ms.c.eJw1zNsNADEIA8GOTjzsAP03dgqBz9FiaAmoZzCh5R~_v5QSMUq7jeLaxCq6zMJ3sjt37uz~_7z~;5v29W8LfkDcFgZvg~-~-.bps.a.528440300917635/528441387584193/?type=3&amp;theater" data-width="350" data-show-text="true">
+                <blockquote cite="https://developers.facebook.com/iglesiabautistapanambireta/posts/528441387584193" class="fb-xfbml-parse-ignore">
+                    <p>Emotiva presentacion de sus padres e familiares a Oscar Samuel al Señor. Dios te bendiga Samuelito, que crezcas fuerte y sano en la presencia de nuestro Dios.</p>Publicada por 
+                    <a href="https://www.facebook.com/iglesiabautistapanambireta/">Iglesia Bautista Panambi Reta</a> 
+                    en&nbsp;<a href="https://developers.facebook.com/iglesiabautistapanambireta/posts/528441387584193">Domingo, 2 de septiembre de 2018</a>
+                </blockquote>
+            </div>
+	</div>
+	<p> <b>Texto culaquiera</b> </p>
 </body>
 
 </html>
