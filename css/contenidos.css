@@ -34,6 +34,10 @@
   padding-top: 10% ;
 }
 
+.cont_evan {
+    background-image: url("../imagenes/salvacion.jpg");
+}
+
 #redes_soc {
   border-left: solid 1px #000;
   border-radius: 10px;
@@ -74,4 +78,30 @@
 p i:hover {
   background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
+}
+
+
+@media(min-width: 1024px) {
+  #content {
+    display: flex;
+    width: 100%;
+  }
+
+  .contenido {
+    width: 100%;
+  }
+
+  .cont_info, .cont_editorial {
+    width: 90%;
+  }
+
+  .cont_info {
+    height: 72vh;
+  }
+  .cont_editorial{
+    margin-left: 5%;
+    padding: 2%;
+    height: auto;
+  }
+
 }

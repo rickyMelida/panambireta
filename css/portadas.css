@@ -56,6 +56,7 @@
 /*Si la pantalla es de tamaño escritorio*/
 @media(min-width: 1024px) {
 
+
     #btn-prev{
         transform: translateX(100%);
     }
