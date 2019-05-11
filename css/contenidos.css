@@ -68,7 +68,6 @@
   padding: 10%;
 }
 
-/*.cont_editorial p i, .cont_info p i*/
 .ver_mas {
   border: solid 1px #000;
   border-radius: 5%;
@@ -85,17 +84,19 @@
 
 /*---------------------------Tamaño escritorio--------------------*/
 @media(min-width: 1024px) {
-  #content .contenido{
-    display: flex;
-    flex-wrap: wrap;/*Para que el elemento que no cabe en la pantalla se baje uno debajo del otro*/
+  #cont {
+    overflow: hidden;
+    width: 100%;
   }
 
   .contenido {
+    display: inline-block;
     width: 40%;
-    height: 70vh;
-    margin: 0;
-    padding: 0;
+    height: auto;
+    margin-left: 5%;
   }
 
-
+  #cont_editorial h3{
+    margin-top: -6%;
+  }
 }
