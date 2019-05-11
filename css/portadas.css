@@ -12,7 +12,7 @@
 }
 
 #slider .portada {
-    width: auto;/*este estaba en 80%*/
+    width: 100%;/*este estaba en 80%*/
 }
 
 .portada img {

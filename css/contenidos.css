@@ -8,35 +8,37 @@
   color: #000;
 }
 
-.cont_editorial {
-  background-image: url("../imagenes/crecimiento.jpeg");
+.cont {
   border: solid 2px #000;
   border-radius: 10px;
   font-family: 'Playfair Display', serif;
   margin: 0 ;
-  height: 100%;
+  height: auto;
   padding: 10% 0;
 }
 
-.cont_editorial p, .cont_info p{
+.cont p{
   padding: 5px 0;
   word-spacing: 5px;
 }
 
-.cont_info{
-  background-image: url("../imagenes/salud_1.jpg");
-  color: #000;
-  border: solid 2px #000;
-  border-radius: 10px;
-  font-family: 'Playfair Display', serif;
-  /*margin: 15%;*/
-  height: auto;
-  padding-top: 10% ;
+#cont_editorial {
+  background-image: url("../imagenes/crecimiento.jpeg");
 }
 
-.cont_evan {
-    background-image: url("../imagenes/salvacion.jpg");
+#cont_info{
+  background-image: url("../imagenes/salud_1.jpg");
 }
+
+#cont_evan {
+    background-image: url("../imagenes/salvacion.jpg");
+    padding: -10% 0;
+}
+
+.cont_evan h3 {
+  padding: 5% 10% 0;
+}
+
 
 #redes_soc {
   border-left: solid 1px #000;
@@ -66,7 +68,8 @@
   padding: 10%;
 }
 
-.cont_editorial p i, .cont_info p i {
+/*.cont_editorial p i, .cont_info p i*/
+.ver_mas {
   border: solid 1px #000;
   border-radius: 5%;
   width: 10%;
@@ -75,33 +78,24 @@
   font-size: 14px;
 }
 
-p i:hover {
+.ver_mas:hover {
   background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
 }
 
-
+/*---------------------------Tamaño escritorio--------------------*/
 @media(min-width: 1024px) {
-  #content {
+  #content .contenido{
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;/*Para que el elemento que no cabe en la pantalla se baje uno debajo del otro*/
   }
 
   .contenido {
-    width: 100%;
+    width: 40%;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
   }
 
-  .cont_info, .cont_editorial {
-    width: 90%;
-  }
-
-  .cont_info {
-    height: 72vh;
-  }
-  .cont_editorial{
-    margin-left: 5%;
-    padding: 2%;
-    height: auto;
-  }
 
 }
