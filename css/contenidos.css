@@ -97,6 +97,15 @@
   background: rgba(255, 255, 255, 0.8);
 }
 
+
+/*Si el ancho es menor a 400px*/
+@media(max-width: 400px) {
+	.ver_mas {
+		margin-left: 5%;
+	}
+
+}
+
 /*---------------------------Tamaño escritorio--------------------*/
 @media(min-width: 1024px) {
   #cont {
