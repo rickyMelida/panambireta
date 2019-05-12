@@ -4,7 +4,6 @@ var anterior = $("#btn-prev");
 $("#slider").css("margin-left", "-" + 100 + "%");
 
 /*Va a izquierda*/
-
 function izquierda() {
 	$("#slider").animate({marginLeft: "-" + 200 + "%"}, 700, function(){
 		$("#slider .portada:first").insertAfter("#slider .portada:last");
@@ -74,7 +73,7 @@ function slider() {
 
 /*redireccionamos a la editorial*/
 $("#pagina_edit").click(function() {
-	window.open('http://google.com', '_blank');
+	window.open("blog.html", '_blank');
 });
 
 
