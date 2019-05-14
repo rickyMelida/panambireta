@@ -28,6 +28,30 @@ siguiente.click(function() {
 });
 
 
+/*Con efecto touch*/
+var zona_touch = document.getElementById("slider");
+var tactil = new Hammer(zona_touch);
+
+var cont_derecha, cont_izquierda = 0;
+tactil.on("panleft", function() {
+	cont_izquierda = 1 + cont_izquierda;
+	if (cont_izquierda >= 5) {
+		izquierda();
+	}
+	
+});
+
+tactil.on("panright", function() {
+	cont_derecha = 1 + cont_derecha;
+
+	if(cont_derecha >= 5) {
+		derecha();	
+	} 
+	
+});
+
+
+
 
 $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
@@ -37,8 +61,8 @@ $(window).scroll(function() {
 		
 	}
 });
-//Pasa automatico a la derecha las imagenes
-setInterval(function(){ derecha();}, 4000);
+/*/Pasa automatico a la derecha las imagenes
+setInterval(function(){ derecha();}, 4000);*/
 
 
 var ancho_vent = window.innerWidth;
