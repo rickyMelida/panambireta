@@ -1,0 +1,27 @@
+.blog {
+  margin: auto;
+  background: #fff;
+}
+
+#editorial_1 {
+  padding: 20% 5%;
+}
+
+#editorial_1 h3 {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+#editorial_1 h4 {
+    text-decoration: underline;
+}
+
+#editorial_1 h3, #editorial_1 h4{
+  font: bold 26px sans-serif;
+  padding: 5px 0;
+}
+#editorial_1 p {
+  font: normal 18px sans-serif;
+  word-spacing: 5px;
+  margin: 0 5%;
+}

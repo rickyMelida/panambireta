@@ -28,7 +28,7 @@ siguiente.click(function() {
 });
 
 
-/*Con efecto touch*/
+/*Con efecto touch
 var zona_touch = document.getElementById("slider");
 var tactil = new Hammer(zona_touch);
 
@@ -49,7 +49,7 @@ tactil.on("panright", function() {
 	} 
 	
 });
-
+*/
 
 
 
