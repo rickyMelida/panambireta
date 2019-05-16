@@ -1,10 +1,20 @@
 .blog {
   margin: auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #editorial_1 {
   padding: 20% 5%;
+}
+
+.titulos_blog {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Constantia";
+}
+
+#menu_blog a{
+  color: white;
 }
 
 #editorial_1 h3 {
