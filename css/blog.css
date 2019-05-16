@@ -3,12 +3,16 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
+.icon-menu {
+  color: white;
+}
+
 #editorial_1 {
   padding: 20% 5%;
 }
 
 .titulos_blog {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   text-align: center;
   font-family: "Constantia";
 }
@@ -18,7 +22,7 @@
 }
 
 #editorial_1 h3 {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(204, 74, 70, 0.3);
   width: 100%;
 }
 
@@ -29,9 +33,12 @@
 #editorial_1 h3, #editorial_1 h4{
   font: bold 26px sans-serif;
   padding: 5px 0;
+  color: rgba(255, 255, 255, 0.5);
 }
 #editorial_1 p {
   font: normal 18px sans-serif;
   word-spacing: 5px;
+  line-height: 25px;
   margin: 0 5%;
+  color: rgba(255, 255, 255, 0.5);
 }

@@ -24,10 +24,14 @@ header {
 }
 
 /*Estilo del icono del menu*/
-label img{
+.icon-menu{
 	float: left;
 	margin-left: 10px;
 	margin-top: 15px;
+	font-size: 50px;
+}
+
+.icon-menu:hover {
 	cursor: pointer;
 }
 
@@ -116,7 +120,7 @@ section aside {
 	}
 
 
-    label img {
+    .icon-menu {
         display: none;
     }
 
