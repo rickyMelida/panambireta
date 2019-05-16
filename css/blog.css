@@ -7,7 +7,7 @@
   color: white;
 }
 
-#editorial_1 {
+.editorial_1 {
   padding: 20% 5%;
 }
 
@@ -21,21 +21,21 @@
   color: white;
 }
 
-#editorial_1 h3 {
+.editorial_1 h3 {
   background: rgba(204, 74, 70, 0.3);
   width: 100%;
 }
 
-#editorial_1 h4 {
+.editorial_1 h4 {
     text-decoration: underline;
 }
 
-#editorial_1 h3, #editorial_1 h4{
+.editorial_1 h3, .editorial_1 h4{
   font: bold 26px sans-serif;
   padding: 5px 0;
   color: rgba(255, 255, 255, 0.5);
 }
-#editorial_1 p {
+.editorial_1 p {
   font: normal 18px sans-serif;
   word-spacing: 5px;
   line-height: 25px;
