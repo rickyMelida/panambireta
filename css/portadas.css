@@ -53,6 +53,31 @@
 }
 
 
+#en_vivo {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius:5px;
+  border: solid 2px #000;
+  padding: 2%;
+}
+
+#en_vivo:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+
+/*No se va a visualizar el clima en tamaño movil y tablets*/
+.clima {
+  display: none;
+}
+
+#slogan {
+  display: none;
+}
+
 /*Si la pantalla es de tamaño escritorio*/
 @media(min-width: 1024px) {
 
@@ -63,5 +88,30 @@
 
     #btn-next {
         transform: translateX(-100%);
+    }
+
+    .clima {
+      display: initial;
+      position: absolute;
+      right: 5%;
+      top: 15%;
+    }
+
+    #en_vivo {
+      top: 80vh;
+    }
+
+    #slogan {
+      display: initial;
+      position: absolute;
+      z-index: 0;
+      top: 15%;
+      left: 2%;
+      width: 50px;
+      height: 40px;
+    }
+
+    #slogan cite {
+      font: italic 2em "Lucida Calligrphy";
     }
 }
