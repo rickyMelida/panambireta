@@ -26,8 +26,21 @@
   background-image: url("../imagenes/crecimiento.jpeg");
 }
 
+#cont_vida {
+  background-image: url("../imagenes/sentido.jpg");
+}
+
+#cont_hormigas {
+  background-image: url("../imagenes/hormigas.jpg");
+}
+
+
+#cont_alma {
+  background-image: url("../imagenes/alma.jpg");
+}
+
 #cont_info{
-  background-image: url("../imagenes/salud_1.jpg");
+  background-image: url("../imagenes/grandeza.jpg");
 }
 
 #cont_evan {
