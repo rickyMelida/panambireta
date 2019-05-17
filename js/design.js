@@ -5,7 +5,7 @@ $("#slider").css("margin-left", "-" + 100 + "%");
 
 /*Va a izquierda*/
 function izquierda() {
-	$("#slider").animate({marginLeft: "-" + 200 + "%"}, 700, function(){
+	$("#slider").animate({marginLeft: "-" + 200 + "%"}, 2000, function(){
 		$("#slider .portada:first").insertAfter("#slider .portada:last");
 		$("#slider").css("margin-left","-" + 100 + "%");
 	});
@@ -28,7 +28,7 @@ siguiente.click(function() {
 });
 
 
-/*Con efecto touch
+/*Con efecto zona_touch
 var zona_touch = document.getElementById("slider");
 var tactil = new Hammer(zona_touch);
 
