@@ -74,7 +74,7 @@
   display: none;
 }
 
-#slogan {
+#hora {
   display: none;
 }
 
@@ -101,7 +101,7 @@
       top: 80vh;
     }
 
-    #slogan {
+    #hora {
       display: initial;
       position: absolute;
       z-index: 0;
@@ -111,7 +111,4 @@
       height: 40px;
     }
 
-    #slogan cite {
-      font: italic 2em "Lucida Calligrphy";
-    }
 }
