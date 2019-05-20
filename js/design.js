@@ -28,39 +28,6 @@ siguiente.click(function() {
 });
 
 
-/*Con efecto zona_touch
-var zona_touch = document.getElementById("slider");
-var tactil = new Hammer(zona_touch);
-
-var cont_derecha, cont_izquierda = 0;
-tactil.on("panleft", function() {
-	cont_izquierda = 1 + cont_izquierda;
-	if (cont_izquierda >= 5) {
-		izquierda();
-	}
-	
-});
-
-tactil.on("panright", function() {
-	cont_derecha = 1 + cont_derecha;
-
-	if(cont_derecha >= 5) {
-		derecha();	
-	} 
-	
-});
-*/
-
-
-
-$(window).scroll(function() {
-	var valor_scroll = $(window).scrollTop();
-	console.log(valor_scroll);
-
-	if(valor_scroll >= 400) {
-		
-	}
-});
 //Pasa automatico a la derecha las imagenes
 setInterval(function(){ derecha();}, 4000);
 
@@ -97,16 +64,38 @@ function slider() {
 
 /*redireccionamos a la editorial*/
 $("#pagina_edit").click(function() {
-	window.open("blog.html", '_blank');
+	window.open("blog.html",'_self');
 });
 
+function grandeza() {
+	var grande = 1;
+	return grande;
+}
 
-/*Redireccionamos al blog en el articulo selecionado*/
-$("#pagina_info").click(function() {
-	window.open('http://google.com', '_blank');
+$("#cont_info").click(function() {
+	window.open("blog.html", '_self');
+
 });
+
+$( window ).on( "load", function() {
+        if(document.title == "blog") {
+        	window.scrollTo(0, 1200);
+        }
+    });
 
 /*Funcion para abrir la vnetana de la radio*/
 function radio() {
-	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto")
+	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto");
 }
+
+
+
+$(window).scroll(function() {
+	var valor_scroll = $(window).scrollTop();
+	console.log(valor_scroll);
+
+	if(valor_scroll >= 400) {
+		
+	}
+});
+
