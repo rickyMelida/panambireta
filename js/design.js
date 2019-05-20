@@ -61,8 +61,8 @@ $(window).scroll(function() {
 		
 	}
 });
-/*/Pasa automatico a la derecha las imagenes
-setInterval(function(){ derecha();}, 4000);*/
+//Pasa automatico a la derecha las imagenes
+setInterval(function(){ derecha();}, 4000);
 
 
 var ancho_vent = window.innerWidth;
