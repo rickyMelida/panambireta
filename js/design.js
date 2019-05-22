@@ -87,6 +87,10 @@ $("#cont_hormigas").click(function() {
 	window.open("blog.html", '_self');
 });
 
+$("#cont_alma").click(function() {
+	window.open("blog.html", '_self');
+});
+
 
 window.addEventListener("load", function() {
 
