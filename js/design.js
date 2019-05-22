@@ -68,12 +68,25 @@ $("#pagina_edit").click(function() {
 	
 });
 
-var ventana;
 
 $("#cont_info").click(function() {
-	ventana = window.open("blog.html", '_self');
+	window.open("blog.html", '_self');
 
 });
+
+$("#cont_evan").click(function() {
+	window.open("blog.html", '_self');
+});
+
+$("#cont_vida").click(function() {
+	window.open("blog.html", '_self');
+});
+
+
+$("#cont_hormigas").click(function() {
+	window.open("blog.html", '_self');
+});
+
 
 window.addEventListener("load", function() {
 
