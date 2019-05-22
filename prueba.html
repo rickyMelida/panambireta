@@ -5,36 +5,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<script  src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<style>
-		#parte_1, #parte_2 {
-			height: 200vh;
-		}
-
-		section {
-			width: 200px;
-			height: 100px;
-			background: red;
-		}
 
 	</style>
 </head>
 <body>
 	<h1>Pruebas</h1>
-	<input type="button" value="Presionam" onclick="ventana()">
-	<a href="#parte_2">Ir a la parte 2</a>
-	<div id="parte_1">
-		<section></section>
-	</div>
-	<div id="parte2">
-		<section></section>
-	</div>
+	<input type="button" value="Guardar" onclick="abrir()">
 	
 	<script>
-		
 
-		function ventana() {
-			window.scrollTo(0, 500);
-		}
+			
+
+function ventanaSecundaria (URL){ 
+   window.open(URL,"ventana1","width=120,height=300,scrollbars=NO");
+ 
+} 
+function abrir() {
+	ventanaSecundaria("http://www.desarrolloweb.com"); 
+}
+
+  
 	</script>
 </body>
 </html>

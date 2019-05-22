@@ -65,23 +65,22 @@ function slider() {
 /*redireccionamos a la editorial*/
 $("#pagina_edit").click(function() {
 	window.open("blog.html",'_self');
+	
 });
 
-function grandeza() {
-	var grande = 1;
-	return grande;
-}
+var ventana;
 
 $("#cont_info").click(function() {
-	window.open("blog.html", '_self');
+	ventana = window.open("blog.html", '_self');
 
 });
 
-$( window ).on( "load", function() {
-        if(document.title == "blog") {
-        	window.scrollTo(0, 1200);
-        }
-    });
+window.addEventListener("load", function() {
+
+		
+});
+
+
 
 /*Funcion para abrir la vnetana de la radio*/
 function radio() {
