@@ -75,4 +75,12 @@
     font: normal 18px sans-serif;
     color: rgba(255, 0, 0, 0.6);
   }
+  .versiculos_2 {
+    position: absolute;
+    top: 300vh;
+    right: 20%;
+  }
+  .versiculos cite {
+    margin-left: 45%;
+  }
 }
