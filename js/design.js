@@ -93,7 +93,9 @@ $("#cont_alma").click(function() {
 
 
 window.addEventListener("load", function() {
-
+	if(document.title == "Blog" && $(window).width() >= 1024){
+		$("#pie").css("marginTop", "0");
+	}
 		
 });
 
