@@ -22,3 +22,10 @@
   font: bold  16px "Cambria";
 
 }
+
+@media(min-width: 1024px) {
+  #pie {
+    margin-top: 5%;
+  }
+  
+}
