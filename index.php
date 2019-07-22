@@ -1,5 +1,209 @@
-<?php
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/hammer.min.js"></script>
+    <link rel="icon" href="img/cruz.ico">
+    <title>IBPR</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu"></label>
+		<h1 class="titulos">IBPR</h1>
+		<img src="img/cruz_icono.png" width="50" height="40" id="icono-cruz">
+        <h2 class="titulos">Ministerio Amigos de Jesús</h2>
+        <nav class="menu">
+            <ul>
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a id="serv">Servicios
+                    <ul id="menu_serv">
+                        <li id="actividades">Actividades</li>
+                        <li id="consejeria">Consejería</li>
+                        <li id="m_oracion">Motivos de Oración</li>
+                    </ul>
+                </a>
+                <a href="src/blog.html">Blog</a>
+                <a href="#">Televisión</a>
+                <a href=" " onclick="radio()">Radio</a>
+            </ul>
+        </nav>
+    </header>
+    <!---------------------------Widget para la hora local--------------->
+    <div id="hora">
+        <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:100px !important;"><p><a href="//24timezones.com/es_hora/paraguay_reloj.php" style="text-decoration: none" class="clock24" id="tz24-1558092691-cc14789-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I1Y2RlOWI5MzExYjEwIiwidHlwZSI6ImRiIiwibGFuZyI6ImVzIn0=" title="hora actual Paraguay" target="_blank" rel="nofollow">Hora actual en Paraguay</a></p><div id="clock_block_cb5cde9b9311b10"></div></div>
+        <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+    </div>
 
-    require_once("index.html");
+    <!-----------------------------Widget para el clima--------------------------------->
+    <div class="clima">
+        <div id="TT_JyiwbhtBYaar8FIU7fujzzDzD6a1TUa2bYktEcioKkj" class="texto"></div>
+        <script src="https://www.tutiempo.net/s-widget/l_JyiwbhtBYaar8FIU7fujzzDzD6a1TUa2bYktEcioKkj">
+        </script>
+    </div>
 
-?>
+    <!-----------------------------Slider de imagenes----------------------->
+    <main id="c-slider">
+        <div id="slider">
+            <section class="portada">
+                <img src="imagenes/img_1.JPG">
+            </section>
+            <section class="portada">
+                <img src="imagenes/img_2.JPG">
+            </section>
+            <section class="portada">
+                <img src="imagenes/img_3.JPG">
+            </section>
+            <section class="portada">
+                <img src="imagenes/img_4.JPG">
+            </section>
+            <section class="portada">
+                <img src="imagenes/img_5.JPG">
+            </section>
+        </div>
+        <div id="btn-prev" >&#60;</div>
+        <div id="btn-next" >&#62;</div>
+    </main>
+    <!------------Cuadro de En vivo---------->
+    <div id="en_vivo">
+        <p>En vivo!</p>
+    </div>
+
+    <!------------Cuadro de todos los contenidos, editorial y reflexiones---->
+    <div id="content">
+        <section class="contenido">
+            <div id="cont_editorial" class="cont">
+                <h3>Editorial</h3><br>
+                <h4>Una Iglesia que crece</h4>
+                <p>
+                    Una iglesia que crece, tiene que apredender a escuchar a Dios y creerle. Creerle a 
+                    Dios implica aceptar Su palabra y entregarse para hacer su voluntad. Esto trae 
+                    consigo.. <br><br>
+                    <i id="pagina_edit" class="ver_mas">ver mas..</i>
+                </p>
+            </div>    
+        </section>
+        <section class="contenido">
+            <div id="cont_info" class="cont">
+                <h3>La verdadera grandeza</h3>
+                <p>
+                    Hace algunos años una fundación humanitaria se contactó con un ex 
+                    presidente de un importante país para pedirle que ejerciera algunas 
+                    responsabilidades en ella. Este aceptó.. <br><br>
+                    <i id="pagina_info" class="ver_mas">ver mas..</i>
+                </p>
+            </div>
+        </section>
+        <section class="contenido">
+            <div class="cont" id="cont_evan">
+                <h3>¡Usted lo vale!</h3>
+                <p>
+                    Este titulo hace referecia a una publicidad muy 
+                    conocidade un producto de belleza. Tuvo gran exito, 
+                    y podemos prguntarnos a que se debe. ¿Será porque 
+                    la expresion alimenta la buena opinion..<br> <br>
+                    <i id="pagina_evan" class="ver_mas">Ver mas..</i>
+                </p>
+            </div>
+        </section>
+        <section class="contenido">
+            <div class="cont" id="cont_vida">
+                <h3>El sentido de la vida</h3>
+                <p>
+                    Cada uno se hace su propia idea de las cosas en funcion a sus experiencias
+                     y de la gente que lo rodea. En efecto, cada dia tenemos que tomar multples 
+                     desiciones, pequeños o grandes. Debemos diferenciar entre  <br><br>
+                     <i id="pagina_evan" class="ver_mas">Ver mas..</i>
+                </p>
+            </div>
+        </section>
+        <section class="contenido">
+            <div class="cont" id="cont_hormigas">
+                <h3>¡Atención hormigas!</h3>
+                <p>
+                    Miguel observaba fascinado una larga fila de hormigas que atravesaban 
+                    la vía. Repentinamente escuchó el ruido de un automóvil, y exclamó: 
+                    "¡Atención hormigas, un automóvil! ¡Córranse rápido!"". 
+                    Pero las hormigas.. <br><br>
+                    <i id="pagina_hormigas" class="ver_mas">Ver mas..</i>
+
+                </p>
+            </div>
+        </section>
+        <section class="contenido">
+            <div class="cont" id="cont_alma">
+                <h3>¿Cómo está su alma?</h3>
+                <p>
+                    Mire a los ojos a uno de sus seres queridos, o mírese usted mismo
+                    en un espejo. ¿Puede escapar a esta convicción profunda de que el 
+                    hombre no está hecho simplemente de carne y huesos, sino que posee
+                    .. <br><br>
+                    <i id="pagina_alma" class="ver_mas">Ver mas..</i>
+                </p>
+            </div>
+        </section>
+        <!--section class="contenido">
+            <div id="redes_soc">
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.3"></script>
+                <div class="fb-post" data-href="https://www.facebook.com/iglesiabautistapanambireta/photos/ms.c.eJw1zNsNADEIA8GOTjzsAP03dgqBz9FiaAmoZzCh5R~_v5QSMUq7jeLaxCq6zMJ3sjt37uz~_7z~;5v29W8LfkDcFgZvg~-~-.bps.a.528440300917635/528441387584193/?type=3&amp;theater" data-width="350" data-show-text="true">
+                    <blockquote cite="https://developers.facebook.com/iglesiabautistapanambireta/posts/528441387584193" class="fb-xfbml-parse-ignore">
+                        <p>Emotiva presentacion de sus padres e familiares a Oscar Samuel al Señor. Dios te bendiga Samuelito, que crezcas fuerte y sano en la presencia de nuestro Dios.</p>Publicada por 
+                        <a href="https://www.facebook.com/iglesiabautistapanambireta/">Iglesia Bautista Panambi Reta</a> 
+                        en&nbsp;<a href="https://developers.facebook.com/iglesiabautistapanambireta/posts/528441387584193">Domingo, 2 de septiembre de 2018</a>
+                    </blockquote>
+                </div>
+    
+                <div class="fb-post" data-href="https://www.facebook.com/iglesiabautistapanambireta/photos/ms.c.eJw1jskNADEIAztacRgD~;Te2CiHP0dgGUF1YKk241ofDnX1YTIZVRJIuZCxHwTotscySprfrMmrymrvHHO5a7zF5vr5guN8~_7j2L7df9R2UZPD61N686~_Xh7dvt4fcr519OWI2cPj4XHw~;h8XI8fh4Y50g~-~-.bps.a.461306740964325/461306810964318/?type=3&amp;theater" data-width="350" data-show-text="true">
+                    <blockquote cite="https://developers.facebook.com/iglesiabautistapanambireta/posts/461306810964318" class="fb-xfbml-parse-ignore">
+                        <p>Domingo dedicado a la familia, junto con la Lic. Yolanda. Domingo de bendicion!</p>
+                        Publicada por 
+                        <a href="https://www.facebook.com/iglesiabautistapanambireta/">Iglesia Bautista Panambi Reta</a> 
+                        en&nbsp;<a href="https://developers.facebook.com/iglesiabautistapanambireta/posts/461306810964318">Domingo, 17 de junio de 2018</a>
+                    </blockquote>
+                </div>
+            </div>
+        </section-->
+    </div>
+
+    <!----------------Pie de pagina y redes sociales----------->
+    <footer id="pie">
+        <p id="mi_pie">&copy; 2019 - IBPR - M. Amigos de Jesús</p><br>
+        <div id="redes">
+            <a href="http://facebook.com" class="icon-facebook"></a>
+            <a href="http://twitter.com" class="icon-twitter"></a>
+            <a href="http://instagram.com" class="icon-instagram"></a>
+            <a href="http://youtube.com" class="icon-youtube"></a>
+        </div>
+        
+    </footer>
+    <script src="js/design.js"></script>
+</body>
+
+
+<!--
+
+ Misión
+    Hacer conocer a las personas acerca de las enseñanzas, doctrinas y fundamentos
+    que la Biblia enseña, y que lleguen al pleno conocimiento de la persona de 
+    Jesucristo, obedeciendo a ello con un testimonio real de lo que predicamos.
+
+Visión
+    Llegar a todas las personas con la palabra de Dios, así como también esas 
+    personas puedan tener una transformacion y vida nueva por medio del Espíritu Santo
+    para que con ello puedan testificar del amor de Dios al mundo.
+
+
+Valores
+    Honestidad 
+    Sinceridad 
+    Transparencia
+    Amor 
+    Compañerismo
+-->
+</html>
