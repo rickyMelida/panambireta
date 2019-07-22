@@ -29,7 +29,7 @@ siguiente.click(function() {
 
 
 //Pasa automatico a la derecha las imagenes
-setInterval(function(){ derecha();}, 4000);
+//setInterval(function(){ derecha();}, 4000);
 
 
 var ancho_vent = window.innerWidth;
@@ -103,10 +103,20 @@ window.addEventListener("load", function() {
 
 /*Funcion para abrir la vnetana de la radio*/
 function radio() {
-	window.open("http://listen.radionomy.com/panambireta", "Radio PanambiReta", "width=300, height=auto");
+	window.open("http://radioibpr.herokuapp.com", "Radio PanambiReta", "width=300, height=auto");
 }
 
+$("#actividades").click(function () {
+	window.open("src/actividades.html", '_self');
+});
 
+$("#consejeria").click(function () {
+	window.open("src/consejeria.html", '_self');
+});
+
+$("#m_oracion").click(function () {
+	window.open("src/intersecion.html", '_self');
+});
 
 $(window).scroll(function() {
 	var valor_scroll = $(window).scrollTop();
