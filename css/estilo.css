@@ -4,6 +4,7 @@
 @import url("fontello.css");
 @import url("pie.css");
 @import url("blog.css");
+@import url("nosotros.css");
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
 
 body {
@@ -13,6 +14,7 @@ body {
 header {
 	width: 100%;
 	position: fixed; /*Lo fijamos en una posicion fija*/
+	margin-top: 0;
 }
 
 #btn-menu {
