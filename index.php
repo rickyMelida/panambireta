@@ -20,7 +20,7 @@
         <nav class="menu">
             <ul>
                 <a href="#">Inicio</a>
-                <a href="#">Nosotros</a>
+                <a href="src/nosotros.html">Nosotros</a>
                 <a id="serv">Servicios
                     <ul id="menu_serv">
                         <li id="actividades">Actividades</li>
