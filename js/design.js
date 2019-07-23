@@ -107,15 +107,31 @@ function radio() {
 }
 
 $("#actividades").click(function () {
-	window.open("src/actividades.html", '_self');
+	if(document.title == "IBPR") {
+		window.open("src/actividades.html", '_self');
+	}else {
+		window.open("actividades.html", '_self');
+	}
+	
 });
 
 $("#consejeria").click(function () {
-	window.open("src/consejeria.html", '_self');
+
+	if(document.title == "IBPR") {
+		window.open("src/consejeria.html", '_self');
+	}else {
+		window.open("consejeria.html", '_self');
+	}
+	
 });
 
 $("#m_oracion").click(function () {
-	window.open("src/intersecion.html", '_self');
+	if(document.title == "IBPR") {
+		window.open("src/intersecion.html", '_self');
+	}else {
+		window.open("intersecion.html", '_self');
+	}
+	
 });
 
 $(window).scroll(function() {
