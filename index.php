@@ -16,7 +16,7 @@
         <label for="btn-menu" class="icon-menu"></label>
 		<h1 class="titulos">IBPR</h1>
 		<img src="img/cruz_icono.png" width="50" height="40" id="icono-cruz">
-        <h2 class="titulos">Ministerio Amigos de Jesús</h2>
+        <h2 class="titulos">Ministerio Amigos dde Jesús</h2>
         <nav class="menu">
             <ul>
                 <a href="#">Inicio</a>
