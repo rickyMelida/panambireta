@@ -76,7 +76,7 @@
                     Una iglesia que crece, tiene que apredender a escuchar a Dios y creerle. Creerle a 
                     Dios implica aceptar Su palabra y entregarse para hacer su voluntad. Esto trae 
                     consigo.. <br><br>
-                    <i id="pagina_edit" class="ver_mas p-2 font-weight-bold">ver mas..</i>
+                    <input type="button" class="btn btn-outline-light" value="ver mas..">
                 </p>
             </div>
         </div>
@@ -88,7 +88,7 @@
                     Hace algunos años una fundación humanitaria se contactó con un ex 
                     presidente de un importante país para pedirle que ejerciera algunas 
                     responsabilidades en ella. Este aceptó.. <br><br>
-                    <i id="pagina_info" class="ver_mas p-2 font-weight-bold">ver mas..</i>
+                    <input type="button" class="btn btn-outline-light" value="ver mas..">
                 </p>
             </div>
         </div>
@@ -101,7 +101,7 @@
                     conocidade un producto de belleza. Tuvo gran exito, 
                     y podemos prguntarnos a que se debe. ¿Será porque 
                     la expresion alimenta la buena opinion..<br> <br>
-                    <i id="pagina_evan" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
+                    <input type="button" class="btn btn-outline-light" value="ver mas..">
                 </p>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     Cada uno se hace su propia idea de las cosas en funcion a sus experiencias
                      y de la gente que lo rodea. En efecto, cada dia tenemos que tomar multples 
                      desiciones, pequeños o grandes. Debemos diferenciar entre  <br><br>
-                     <i id="pagina_evan" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
+                     <input type="button" class="btn btn-outline-light" value="ver mas..">
                 </p>
             </div>
         </div>
@@ -126,8 +126,7 @@
                     la vía. Repentinamente escuchó el ruido de un automóvil, y exclamó: 
                     "¡Atención hormigas, un automóvil! ¡Córranse rápido!"". 
                     Pero las hormigas.. <br><br>
-                    <i id="pagina_hormigas" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
-
+                    <input type="button" class="btn btn-outline-light" value="ver mas..">
                 </p>
             </div>
         </div>
@@ -140,7 +139,7 @@
                     en un espejo. ¿Puede escapar a esta convicción profunda de que el 
                     hombre no está hecho simplemente de carne y huesos, sino que posee
                     .. <br><br>
-                    <i id="pagina_alma" class="ver_mas p-2 font-weight-bold"">Ver mas..</i>
+                    <input type="button" class="btn btn-outline-light" value="ver mas..">                    
                 </p>
             </div>
         </div>
