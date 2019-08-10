@@ -1,169 +1,22 @@
-﻿@import url("reset.css");
-@import url("contenidos.css");
-@import url("portadas.css");
-@import url("fontello.css");
-@import url("pie.css");
-@import url("blog.css");
-@import url("nosotros.css");
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+﻿@import url("fontello.css");
 
 body {
-	background: rgba(0, 0, 0, 0.8);
+	background-color: #f5f5f5;
+}
+.redes {
+	color: #333030;
+}
+
+div img {
+	height: 100vh;
 }
 
 header {
-	width: 100%;
-	position: fixed; /*Lo fijamos en una posicion fija*/
-	margin-top: 0;
-}
-
-#btn-menu {
-	display: none;
-}
-
-#icono-cruz {
-	display: none;
-}
-
-/*Estilo del icono del menu*/
-.icon-menu{
-	float: left;
-	margin-left: 10px;
-	margin-top: 15px;
-	font-size: 50px;
-}
-
-.icon-menu:hover {
-	cursor: pointer;
-}
-
-.titulos {
-	color: rgba(0, 0, 0, 0.7);
-	font-family: 'Constantia';
-	text-align: center;
-}
-
-header h1{
-	font-size: 24px;
-	padding-top: 5px;
-	margin-right: 10%;
-}
-
-header h2 {
-	font-size: 21px;
-	width: 80%;
-	margin-left: 10%;
-}
-
-.menu {
 	position: absolute;
-	width: 100%;
-	transition: all 0.5s;/*Para que cuando se extienda tenga un retraso de 0.5 segundos*/
-	margin-left: 100%;
+	z-index: 3;
 }
 
-.menu ul {
-	display: flex; /*que sea flexible*/
-	flex-direction: column;
-}
-
-.menu ul a {
-	display: block;
-	text-decoration: none;
-	padding: 25px 10px;
-	margin-left: 5%;
-	font: bold 18px verdana;
-	color: rgba(0, 0 , 0, 0.7);
-}
-
-#btn-menu:checked ~ .menu {
-	margin-left: 10%;
-}
-
-section aside {
+.portada {
 	position: relative;
-	width: 50%;
-	height: 100vh;
-	border: solid 2px #000;
-	float: left;
-}
-
-#menu_serv {
-	display: none;
-}
-
-#menu_serv li{
-	margin-left: 10%;
-	list-style: none;
-	padding: 20px 0;
-}
-
-#serv:hover {
-	cursor: pointer;
-}
-
-/*--------------Si el tamaño es de 1024px para arriba--------------------*/
-@media(min-width: 1024px) {
-
-
-	h1, #icono-cruz{
-		display: initial;
-		float: right;
-		margin-top: 10px;
-	}
-
-	.titulos {
-		font-size: 31px;
-		color: rgba(255, 255, 255, 0.5);
-	}
-
-	h2 {
-		display: none;
-	}
-
-
-    .icon-menu {
-        display: none;
-    }
-
-    header {
-    	background: rgb(0, 0, 0);
-			height: 12vh;
-    }
-
-    .menu {
-    	margin-left: 0%;
-    }
-
-    .menu ul {
-    	display: flex;
-			flex-direction: row;
-			float: left;
-    }
-
-    .menu ul a {
-    	margin-right: 5%;
-    	margin-left: 0;
-			font-size: 16px;
-			color: rgba(255, 255, 255,0.5);
-    }
-
-
-
-    #menu_serv {
-    	position: absolute;
-		z-index: 100;
-    	top: 90%;
-    	left: 15%;
-    	width: 300px;
-    }
-
-		#menu_serv li:hover {
-			color: rgba(0, 0, 0, 0.8);
-		}
-
-	#menu_serv li{
-		padding: 5% 0;
-	}
-
+	z-index: 2;
 }
