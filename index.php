@@ -66,10 +66,88 @@
     </div>
 
     <!--------------------Contenidos------------------------------>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-3">Editorial</h3><br>
+                <h4>Una Iglesia que crece</h4>
+                <p class="px-5 pt-3 w-80 text-left h5">
+                    Una iglesia que crece, tiene que apredender a escuchar a Dios y creerle. Creerle a 
+                    Dios implica aceptar Su palabra y entregarse para hacer su voluntad. Esto trae 
+                    consigo.. <br><br>
+                    <i id="pagina_edit" class="ver_mas p-2 font-weight-bold">ver mas..</i>
+                </p>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-3">La verdadera grandeza</h3>
+                <p class="px-5 pt-3 w-80 text-left h5"> 
+                    Hace algunos años una fundación humanitaria se contactó con un ex 
+                    presidente de un importante país para pedirle que ejerciera algunas 
+                    responsabilidades en ella. Este aceptó.. <br><br>
+                    <i id="pagina_info" class="ver_mas p-2 font-weight-bold">ver mas..</i>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-3">¡Usted lo vale!</h3>
+                <p class="px-5 pt-3 w-80 text-left h5">
+                    Este titulo hace referecia a una publicidad muy 
+                    conocidade un producto de belleza. Tuvo gran exito, 
+                    y podemos prguntarnos a que se debe. ¿Será porque 
+                    la expresion alimenta la buena opinion..<br> <br>
+                    <i id="pagina_evan" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-3">El sentido de la vida</h3>
+                <p class="px-5 pt-3 w-80 text-left h5">
+                    Cada uno se hace su propia idea de las cosas en funcion a sus experiencias
+                     y de la gente que lo rodea. En efecto, cada dia tenemos que tomar multples 
+                     desiciones, pequeños o grandes. Debemos diferenciar entre  <br><br>
+                     <i id="pagina_evan" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-5">¡Atención hormigas!</h3>
+                <p class="px-5 pt-3 w-80 text-left h5">
+                    Miguel observaba fascinado una larga fila de hormigas que atravesaban 
+                    la vía. Repentinamente escuchó el ruido de un automóvil, y exclamó: 
+                    "¡Atención hormigas, un automóvil! ¡Córranse rápido!"". 
+                    Pero las hormigas.. <br><br>
+                    <i id="pagina_hormigas" class="ver_mas p-2 font-weight-bold">Ver mas..</i>
+
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 col-lg-12 editorial my-5">
+                <h3 class="mt-5">¿Cómo está su alma?</h3>
+                <p class="px-5 pt-3 w-80 text-left h5">
+                    Mire a los ojos a uno de sus seres queridos, o mírese usted mismo
+                    en un espejo. ¿Puede escapar a esta convicción profunda de que el 
+                    hombre no está hecho simplemente de carne y huesos, sino que posee
+                    .. <br><br>
+                    <i id="pagina_alma" class="ver_mas p-2 font-weight-bold"">Ver mas..</i>
+                </p>
+            </div>
+        </div>
+    </div>
 
     <!----------------Pie de pagina y redes sociales----------->
-    <div class="d-block fixed-bottom">
+    <div class="d-block fixed-bottom mt-5">
         <footer class="bg-secondary text-center text-dark ">
             <span><strong>&copy; 2019 - IBPR - M. Amigos de Jesús</strong></span><br>
             <div class=row>
