@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container">
                 <h1 class="navbar-brand">IBPR</h1>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
@@ -66,82 +66,91 @@
     </div>
 
     <!--------------------Contenidos------------------------------>
-    <div class="container">
+    <div class="container-fluid">
         
         <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-3">Editorial</h3><br>
-                <h4>Una Iglesia que crece</h4>
-                <p class="px-5 pt-3 w-80 text-left h5">
-                    Una iglesia que crece, tiene que apredender a escuchar a Dios y creerle. Creerle a 
-                    Dios implica aceptar Su palabra y entregarse para hacer su voluntad. Esto trae 
-                    consigo.. <br><br>
-                    <input type="button" class="btn btn-outline-light" value="ver mas..">
-                </p>
-            </div>
+            <section class="col-md-12 col-lg-6  my-5">
+                <div class="editorial m-5 p-5">
+                    <h3 class="mt-2">Editorial</h3><br>
+                    <h4>Una Iglesia que crece</h4>
+                    <p class="px-5 pt-3 w-80 text-left h5">
+                        Una iglesia que crece, tiene que apredender a escuchar a Dios y creerle. Creerle a 
+                        Dios implica aceptar Su palabra y entregarse para hacer su voluntad. Esto trae 
+                        consigo.. <br><br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">
+                    </p>
+                </div>
+            </section>
+
+            <section class="col-md-12 col-lg-6 my-5">
+                <div class="grandeza m-5 p-5">
+                    <h3 class="mt-2">La verdadera grandeza</h3>
+                    <p class="px-5 pt-3 w-80 text-left h5"> 
+                        Hace algunos años una fundación humanitaria se contactó con un ex 
+                        presidente de un importante país para pedirle que ejerciera algunas 
+                        responsabilidades en ella. Este aceptó.. <br><br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">
+                    </p>
+                </div>
+            </section>
+
         </div>
 
         <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-3">La verdadera grandeza</h3>
-                <p class="px-5 pt-3 w-80 text-left h5"> 
-                    Hace algunos años una fundación humanitaria se contactó con un ex 
-                    presidente de un importante país para pedirle que ejerciera algunas 
-                    responsabilidades en ella. Este aceptó.. <br><br>
-                    <input type="button" class="btn btn-outline-light" value="ver mas..">
-                </p>
-            </div>
+            <section class="col-md-12 col-lg-6 my-5">
+                <div class="vale m-5 p-5 "> 
+                    <h3 class="mt-2">¡Usted lo vale!</h3>
+                    <p class="px-5 pt-3 w-80 text-left h5">
+                        Este titulo hace referecia a una publicidad muy 
+                        conocidade un producto de belleza. Tuvo gran exito, 
+                        y podemos prguntarnos a que se debe. ¿Será porque 
+                        la expresion alimenta la buena opinion..<br> <br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">
+                    </p>
+                </div>
+            </section>
+
+            <section class="col-md-12 col-lg-6 my-5">
+                <div class="vida m-5 p-5">
+                    <h3 class="mt-2">El sentido de la vida</h3>
+                    <p class="px-5 pt-3 w-80 text-left h5">
+                        Cada uno se hace su propia idea de las cosas en funcion a sus experiencias
+                        y de la gente que lo rodea. En efecto, cada dia tenemos que tomar multples 
+                        desiciones, pequeños o grandes. Debemos diferenciar entre  <br><br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">
+                    </p>
+                </div>
+            </section>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-3">¡Usted lo vale!</h3>
-                <p class="px-5 pt-3 w-80 text-left h5">
-                    Este titulo hace referecia a una publicidad muy 
-                    conocidade un producto de belleza. Tuvo gran exito, 
-                    y podemos prguntarnos a que se debe. ¿Será porque 
-                    la expresion alimenta la buena opinion..<br> <br>
-                    <input type="button" class="btn btn-outline-light" value="ver mas..">
-                </p>
-            </div>
-        </div>
 
         <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-3">El sentido de la vida</h3>
-                <p class="px-5 pt-3 w-80 text-left h5">
-                    Cada uno se hace su propia idea de las cosas en funcion a sus experiencias
-                     y de la gente que lo rodea. En efecto, cada dia tenemos que tomar multples 
-                     desiciones, pequeños o grandes. Debemos diferenciar entre  <br><br>
-                     <input type="button" class="btn btn-outline-light" value="ver mas..">
-                </p>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-5">¡Atención hormigas!</h3>
-                <p class="px-5 pt-3 w-80 text-left h5">
-                    Miguel observaba fascinado una larga fila de hormigas que atravesaban 
-                    la vía. Repentinamente escuchó el ruido de un automóvil, y exclamó: 
-                    "¡Atención hormigas, un automóvil! ¡Córranse rápido!"". 
-                    Pero las hormigas.. <br><br>
-                    <input type="button" class="btn btn-outline-light" value="ver mas..">
-                </p>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-12 col-lg-12 editorial my-5">
-                <h3 class="mt-5">¿Cómo está su alma?</h3>
-                <p class="px-5 pt-3 w-80 text-left h5">
-                    Mire a los ojos a uno de sus seres queridos, o mírese usted mismo
-                    en un espejo. ¿Puede escapar a esta convicción profunda de que el 
-                    hombre no está hecho simplemente de carne y huesos, sino que posee
-                    .. <br><br>
-                    <input type="button" class="btn btn-outline-light" value="ver mas..">                    
-                </p>
-            </div>
+            <section class="col-md-12 col-lg-6 my-5">
+                <div class="hormigas m-5 p-5">
+                    <h3 class="mt-2">¡Atención hormigas!</h3>
+                    <p class="px-5 pt-3 w-80 text-left h5">
+                        Miguel observaba fascinado una larga fila de hormigas que atravesaban 
+                        la vía. Repentinamente escuchó el ruido de un automóvil, y exclamó: 
+                        "¡Atención hormigas, un automóvil! ¡Córranse rápido!"". 
+                        Pero las hormigas.. <br><br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">
+                    </p>
+                </div>
+            </section>
+
+            <section class="col-md-12 col-lg-6 my-5">
+                <div class="alma m-5 p-5">
+                    <h3 class="mt-2">¿Cómo está su alma?</h3>
+                    <p class="px-5 pt-3 w-80 text-left h5">
+                        Mire a los ojos a uno de sus seres queridos, o mírese usted mismo
+                        en un espejo. ¿Puede escapar a esta convicción profunda de que el 
+                        hombre no está hecho simplemente de carne y huesos, sino que posee
+                        .. <br><br>
+                        <input type="button" class="btn btn-outline-light" value="ver mas..">                    
+                    </p>
+                </div>
+            </section>
         </div>
     </div>
 
