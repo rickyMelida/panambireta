@@ -21,43 +21,45 @@ header nav{
 	z-index: 2;
 }
 
-p {
-	word-spacing: 5px;
-}
 
 .editorial {
 	background-image: url("../imagenes/crecimiento.jpeg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
 }
 
 
 .grandeza {
 	background-image: url("../imagenes/grandeza.jpg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
+	
 }
 
 .vale {
 	background-image: url("../imagenes/salvacion.jpg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
+
 }
 
 .vida {
 	background-image: url("../imagenes/sentido.jpg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
+
 }
 
 .hormigas {
 	background-image: url("../imagenes/hormigas.jpg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
+
 }
 
 .alma {
 	background-image: url("../imagenes/alma.jpg");
 	background-repeat: no-repeat;
-	height: 40vh;
+	height: 100%;
+
 }
