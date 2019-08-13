@@ -98,6 +98,10 @@ span {
 	.slogan strong {
 		font-size: 1.4em;
 	}
+
+	.content aside p:last-child {
+		padding: 2% 20%;
+	}
 }
 
 /*tamaño movil*/
@@ -108,5 +112,9 @@ span {
 
 	.contenidos {
 		margin-top: 20%;
+	}
+
+	.content aside p:last-child {
+		padding: 10% 2%;
 	}
 }
