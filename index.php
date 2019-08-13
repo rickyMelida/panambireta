@@ -70,9 +70,12 @@
 
     <!-----------------------------Slogan------------------------->
 
-    <div class="container slogan">
-   
+    <div class="container slogan text-center">
+        <h1 class=" text-center  font-weight-bold text-warning">Ministerio Amigos de Jesús</h1>
+        <strong class="p-5 text-right font-italic"> Vosotros sois mis amigos, si hacéis lo que yo os mando <br> Juan 15:14</strong>
+        
     </div>
+
     <!--------------------Contenidos------------------------------>
     <div class="container">
         
