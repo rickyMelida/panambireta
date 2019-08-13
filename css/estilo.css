@@ -67,6 +67,20 @@ header nav{
 .slogan {
 	position: absolute;
 	z-index: 4;
-	left: 20%;
-	top: 20%;
+	top: 25%;
+	margin: auto;
+}
+
+@media(min-width: 1028px) {
+	.slogan {
+		margin: 0 15%;
+	}
+
+	.slogan h1 {
+		font-size: 3.9em;
+	}
+
+	.slogan strong {
+		font-size: 1.4em;
+	}
 }
