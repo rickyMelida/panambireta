@@ -1,10 +1,10 @@
 ﻿@import url("fontello.css");
 
 body {
-	background: #a5fecb;  
+	background: #fff;  
 }
 .content {
-	background: #2193b0; 
+	background: #dfe1e2; 
 }
 
 .redes {
@@ -115,6 +115,6 @@ span {
 	}
 
 	.content aside p:last-child {
-		padding: 10% 2%;
+		padding: 10% 0;
 	}
 }
