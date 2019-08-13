@@ -20,10 +20,10 @@
                 <div class="navbar-collapse collapse" id="menu">
                    <ul class="navbar-nav ml-auto">
                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                       <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
-                       <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
-                       <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                       <li class="nav-item"><a href="#" class="nav-link">Radio</a></li>
+                       <li class="nav-item"><a href="src/nosotros.html" class="nav-link">Nosotros</a></li>
+                       <li class="nav-item"><a href="src/servicios.html" class="nav-link">Servicios</a></li>
+                       <li class="nav-item"><a href="src/blog.html" class="nav-link">Blog</a></li>
+                       <li class="nav-item"><a href="src/radio" class="nav-link">Radio</a></li>
                    </ul>
                 </div>
             </div>
