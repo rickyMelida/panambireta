@@ -100,6 +100,7 @@ span {
 	}
 }
 
+/*tamaño movil*/
 @media(max-width: 1028px) {
 	.versiculos {
 		display: none;
