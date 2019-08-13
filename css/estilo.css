@@ -1,8 +1,12 @@
 ﻿@import url("fontello.css");
 
 body {
-	background-color: #6d6a6a;
+	background: #a5fecb;  
 }
+.content {
+	background: #2193b0; 
+}
+
 .redes {
 	color: #333030;
 }
@@ -71,6 +75,17 @@ header nav{
 	margin: auto;
 }
 
+.contenidos {
+	margin-top: 10%;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+span {
+	font:italic 0.9em sans-serif;
+}
 @media(min-width: 1028px) {
 	.slogan {
 		margin: 0 15%;
@@ -82,5 +97,15 @@ header nav{
 
 	.slogan strong {
 		font-size: 1.4em;
+	}
+}
+
+@media(max-width: 1028px) {
+	.versiculos {
+		display: none;
+	}
+
+	.contenidos {
+		margin-top: 20%;
 	}
 }
