@@ -10,7 +10,7 @@
     <title>IBPR</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container">
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container">
                 <h1 class="navbar-brand">IBPR</h1>
