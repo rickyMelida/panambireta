@@ -31,55 +31,47 @@
     </header>
 
     <!----------------Portada Principal de Pagina-------------->
-    <div class="d-block portada">
-        <div class="carousel slide" id="botones" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imagenes/img_1.JPG" class=" w-100" >
-                </div>
-                <div class="carousel-item ">
-                    <img src="imagenes/img_2.JPG" class=" w-100" >
-                </div>
-                <div class="carousel-item ">
-                    <img src="imagenes/img_3.JPG" class=" w-100" >
-                </div>
-                <div class="carousel-item ">
-                    <img src="imagenes/img_4.JPG" class=" w-100" >
-                </div>
-                <div class="carousel-item ">
-                    <img src="imagenes/img_5.JPG" class=" w-100" >
+    <div class="container-fluid">
+        <div class="d-block portada">
+            <div class="carousel slide" id="botones" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/img_1.JPG" class=" w-100" >
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="imagenes/img_2.JPG" class=" w-100" >
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="imagenes/img_3.JPG" class=" w-100" >
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="imagenes/img_4.JPG" class=" w-100" >
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="imagenes/img_5.JPG" class=" w-100" >
+                    </div>
                 </div>
             </div>
-        </div>
     
 
-        <!--Boton que manda a la izquierda-->
-        <a class="carousel-control-prev" href="#botones" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
+            <!--Boton que manda a la izquierda-->
+            <a class="carousel-control-prev" href="#botones" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
 
-        <!--Boton de la derecha-->
-        <a class="carousel-control-next" href="#botones" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+            <!--Boton de la derecha-->
+            <a class="carousel-control-next" href="#botones" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
     </div>
+    
 
 
     <!-----------------------------Slogan------------------------->
 
     <div class="container slogan">
-        <div class="row">
-            <h1 class="col-md-12 col-lg-12 font-weight-bold h3 text-center ml-5">Iglesia Bautista Panambi Reta</h1>
-            <h2 class="col-md-12 col-lg-12 h4 font-italic text-center">Ministerio Amigos de Jesús</h2>  
-        </div>
-        <div>
-            <div class>
-                <blockquote class="ml-5 text-dark col-md-12 col-lg-12 text-center">
-                    "Vosotros sois mis amigos, si hacéis lo que yo os mando. "<br>
-                    <cite>Juan 15:14</cite>
-                </blockquote>
-            </div>
-        </div>
+   
     </div>
     <!--------------------Contenidos------------------------------>
     <div class="container">
