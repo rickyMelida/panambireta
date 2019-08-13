@@ -86,6 +86,10 @@ p {
 span {
 	font:italic 0.9em sans-serif;
 }
+
+blockquote {
+	font-size: 1.6em;
+}
 @media(min-width: 1028px) {
 	.slogan {
 		margin: 0 15%;
@@ -99,7 +103,7 @@ span {
 		font-size: 1.4em;
 	}
 
-	.content aside p:last-child {
+	.content aside p{
 		padding: 2% 20%;
 	}
 }
@@ -114,7 +118,7 @@ span {
 		margin-top: 20%;
 	}
 
-	.content aside p:last-child {
+	.content aside p{
 		padding: 10% 0;
 	}
 }
