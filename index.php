@@ -79,7 +79,7 @@
 
     <div class="container slogan text-center">
         <h1 class=" text-center font-weight-bold text-primary">Ministerio Amigos de Jesús</h1>
-        <strong class="p-5 text-right font-italic"> Vosotros sois mis amigos, si hacéis lo que yo os mando <br> Juan 15:14</strong>
+        <strong class="p-5 text-left font-italic"> "Vosotros sois mis amigos, si hacéis lo que yo os mando" <br> Juan 15:14</strong>
         
     </div>
 
