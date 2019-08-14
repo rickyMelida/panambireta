@@ -91,7 +91,9 @@ blockquote {
 	font-size: 1.6em;
 }
 
-
+li {
+	list-style: none;
+}
 @media(min-width: 1028px) {
 	.slogan {
 		margin: 0 15%;
