@@ -71,7 +71,7 @@ header nav{
 .slogan {
 	position: absolute;
 	z-index: 4;
-	top: 25%;
+	top: 10%;
 	margin: auto;
 }
 
@@ -94,6 +94,8 @@ blockquote {
 li {
 	list-style: none;
 }
+
+
 @media(min-width: 1028px) {
 	.slogan {
 		margin: 0 15%;
