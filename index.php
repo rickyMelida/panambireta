@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
             <div class="container">
                 <h1 class="navbar-brand">IBPR</h1>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
@@ -23,10 +23,10 @@
                        <li class="nav-item"><a href="src/nosotros.html" class="nav-link">Nosotros</a></li>
                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >Servicios</a>
-                            <ul class="dropdown-menu submenu bg-light">
-                                <li class="dropdowm-item"><a href="src/actividades.html" class="nav-link">Actividades</a></li>
-                                <li class="dropdowm-item"><a href="src/consejeria.html" class="nav-link">Consejeria</a></li>
-                                <li class="dropdowm-item"><a href="src/intersecion.html" class="nav-link">Motivos de Oracion</a></li>
+                            <ul class="dropdown-menu submenu bg-primary">
+                                <li class="dropdowm-item bg-primary"><a href="src/actividades.html" class="nav-link">Actividades</a></li>
+                                <li class="dropdowm-item bg-primary"><a href="src/consejeria.html" class="nav-link">Consejeria</a></li>
+                                <li class="dropdowm-item bg-primary"><a href="src/intersecion.html" class="nav-link">Motivos de Oracion</a></li>
                             </ul>
                        </li>
                        <li class="nav-item"><a href="src/blog.html" class="nav-link">Blog</a></li>
@@ -78,7 +78,7 @@
     <!-----------------------------Slogan------------------------->
 
     <div class="container slogan text-center">
-        <h1 class=" text-center  font-weight-bold text-warning">Ministerio Amigos de Jesús</h1>
+        <h1 class=" text-center font-weight-bold text-primary">Ministerio Amigos de Jesús</h1>
         <strong class="p-5 text-right font-italic"> Vosotros sois mis amigos, si hacéis lo que yo os mando <br> Juan 15:14</strong>
         
     </div>
