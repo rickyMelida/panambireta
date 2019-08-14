@@ -22,11 +22,11 @@
                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
                        <li class="nav-item"><a href="src/nosotros.html" class="nav-link">Nosotros</a></li>
                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdowm-toggle" data-toggle="dropdown" >Servicios</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >Servicios</a>
                             <ul class="dropdown-menu submenu bg-light">
-                                <li class="dropdowm-item"><a href="#" class="nav-link">Actividades</a></li>
-                                <li class="dropdowm-item"><a href="#" class="nav-link">Consejeria</a></li>
-                                <li class="dropdowm-item"><a href="#" class="nav-link">Motivos de Oracion</a></li>
+                                <li class="dropdowm-item"><a href="src/actividades.html" class="nav-link">Actividades</a></li>
+                                <li class="dropdowm-item"><a href="src/consejeria.html" class="nav-link">Consejeria</a></li>
+                                <li class="dropdowm-item"><a href="src/intersecion.html" class="nav-link">Motivos de Oracion</a></li>
                             </ul>
                        </li>
                        <li class="nav-item"><a href="src/blog.html" class="nav-link">Blog</a></li>
