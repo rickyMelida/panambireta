@@ -21,7 +21,14 @@
                    <ul class="navbar-nav ml-auto">
                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
                        <li class="nav-item"><a href="src/nosotros.html" class="nav-link">Nosotros</a></li>
-                       <li class="nav-item"><a href="src/servicios.html" class="nav-link">Servicios</a></li>
+                       <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdowm-toggle" data-toggle="dropdown" >Servicios</a>
+                            <ul class="dropdown-menu submenu bg-light">
+                                <li class="dropdowm-item"><a href="#" class="nav-link">Actividades</a></li>
+                                <li class="dropdowm-item"><a href="#" class="nav-link">Consejeria</a></li>
+                                <li class="dropdowm-item"><a href="#" class="nav-link">Motivos de Oracion</a></li>
+                            </ul>
+                       </li>
                        <li class="nav-item"><a href="src/blog.html" class="nav-link">Blog</a></li>
                        <li class="nav-item"><a href="src/radio" class="nav-link">Radio</a></li>
                    </ul>
