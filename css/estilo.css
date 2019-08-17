@@ -95,7 +95,9 @@ li {
 	list-style: none;
 }
 
-
+.ultimo {
+	margin-bottom: 20%;
+}
 
 @media(min-width: 1028px) {
 	.slogan {
