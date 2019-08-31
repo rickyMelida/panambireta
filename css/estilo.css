@@ -99,6 +99,15 @@ li {
 	margin-bottom: 20%;
 }
 
+.cont-act .card {
+	height: 70vh;
+}
+
+.cont-act .card img {
+	height: 300px;
+}
+
+/*tamaño escritorio */
 @media(min-width: 1028px) {
 	.slogan {
 		margin: 0 15%;
@@ -116,10 +125,20 @@ li {
 		padding: 2% 20%;
 	}
 
+	.cont-act .row .primero, .cont-act .row .segundo {
+		margin-top: 10%;
+	}
+
+
 }
 
 /*tamaño movil*/
 @media(max-width: 1028px) {
+
+	.cont-act .row .primero {
+		margin-top: 10%;
+	}
+
 	.versiculos {
 		display: none;
 	}
