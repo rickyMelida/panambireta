@@ -1,10 +1,10 @@
 ﻿@import url("fontello.css");
 
 body {
-	background: #fff;  
+	background: #fff;
 }
 .content {
-	background: #dfe1e2; 
+	background: #dfe1e2;
 }
 
 .redes {
@@ -37,7 +37,7 @@ header nav{
 	background-image: url("../imagenes/grandeza.jpg");
 	background-repeat: no-repeat;
 	height: 100%;
-	
+
 }
 
 .vale {
